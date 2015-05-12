@@ -9,7 +9,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 411844}
   - 33: {fileID: 3366564}
-  - 136: {fileID: 13674460}
   - 23: {fileID: 2324582}
   - 195: {fileID: 19598482}
   - 114: {fileID: 11400240}
@@ -18,7 +17,7 @@ GameObject:
   - 114: {fileID: 11428990}
   - 114: {fileID: 11439836}
   m_Layer: 0
-  m_Name: Follower
+  m_Name: WhiteFlower
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -136,19 +135,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 100
   anim: {fileID: 0}
---- !u!136 &13674460
-CapsuleCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 193250}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: .5
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!195 &19598482
 NavMeshAgent:
   m_ObjectHideFlags: 1

@@ -2,8 +2,11 @@
 using System.Collections;
 
 public class EnemyManager : MonoBehaviour {
-	//public Portal portal;
-	public GameObject Enemy;
+
+	//public GameObject Enemy;
+	//public GameObject Enemy2;
+	public Material[] randomMaterials;
+	public GameObject[] Enemy;
 	public GameObject Portals;
 	public GameObject Text;
 	public float SpawnTimer;
@@ -12,8 +15,9 @@ public class EnemyManager : MonoBehaviour {
 	public int num;
 
 	void Spawn() {
+		int prefab_num = Random.Range (0,9);
 		Vector3 newPosition = new Vector3(Random.insideUnitSphere.x * 50, transform.position.y, Random.insideUnitSphere.z * 50);
-		Instantiate(Enemy, newPosition, transform.rotation);
+		Instantiate(Enemy[prefab_num], newPosition, transform.rotation);
 		--EnemySpawnCounter;
 	}
 	// Use this for initialization
@@ -27,7 +31,8 @@ public class EnemyManager : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		int enemyCount = GameObject.FindGameObjectsWithTag ("Enemy").Length;
-		Debug.Log (enemyCount);
+		//Debug.Log (enemyCount);
+		Debug.Log (EnemySpawnCounter);
 		if (enemyCount <= 0 && EnemySpawnCounter <= 0)
 		{
 			Text.SetActive(true);
