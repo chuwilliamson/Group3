@@ -3,22 +3,26 @@ using System.Collections;
 
 public class CWeapon : MonoBehaviour
 {
-
     public float rof;
     public float lifetime;
     public string type;
     public GameObject projectile;
     public GameObject bucket;
-    private float timer;
+    public float timer;
+
+    void Awake()
+    {
+    }
 
     // Use this for initialization
-    public void Start()
+    protected virtual void Start()
     { 
         timer = rof;
     }
 
-    // Update is called once per frame
-    public void Update()
+    //if you inherit from this class you must provide virtual functions then call the base from 
+    //what you are inheriting from. otherwise it will just be hidden.
+    protected virtual void Update()
     {
 
         if (Input.GetKey(KeyCode.Mouse0) && timer < 0)
