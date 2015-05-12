@@ -4,7 +4,13 @@ using System.Collections;
 public class CTakeDamage : MonoBehaviour {
 
     public float health;
+    public Animator anim;
+    void Awake()
+    {
+       // print("stuff");
+    }
 
+    //character controllers only respond to collisions if they are moving
     void OnCollisionEnter(Collision a_col)
     {
         if(this.CompareTag("Projectile") && a_col.transform.gameObject.tag == "Enemy")
@@ -18,13 +24,17 @@ public class CTakeDamage : MonoBehaviour {
             health -= a_col.transform.gameObject.GetComponent<CProjectile>().damage;
         }
 
-        if (this.CompareTag("Player") && a_col.transform.gameObject.CompareTag("Enemy"))
+        if (this.transform.gameObject.tag == "Player")
         {
-            health -= a_col.gameObject.GetComponent<CEnemy>().attackDamage;
-            //Debug.Log("Player health: " + health);
-
-
+            if(a_col.transform.gameObject.tag == "Enemy")
+            {
+                health -= a_col.gameObject.GetComponent<CEnemy>().attackDamage;
+                anim.SetTrigger("TakeDamage");
+                print("hit");
+            }
         }
+ 
+        
     }
 
 	// Use this for initialization
