@@ -135,6 +135,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 100
+  anim: {fileID: 0}
 --- !u!136 &13674460
 CapsuleCollider:
   m_ObjectHideFlags: 1
