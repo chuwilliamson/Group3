@@ -34,9 +34,4 @@ public class CPlayerTakeDamage : MonoBehaviour {
         }
 
 	}
-
-    IEnumerator Die()
-    {
-        yield return new WaitForSeconds(3);
-    }
 }
