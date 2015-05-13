@@ -11,7 +11,6 @@ GameObject:
   - 33: {fileID: 3364860}
   - 23: {fileID: 2383294}
   - 195: {fileID: 19543318}
-  - 114: {fileID: 11448870}
   - 114: {fileID: 11462612}
   - 54: {fileID: 5449380}
   - 114: {fileID: 11461938}
@@ -94,6 +93,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 58.7379837, y: 60, z: 55.0942383}
   m_Center: {x: 0, y: 30, z: 0}
+<<<<<<< HEAD:root/Assets/Prefabs/Enemies/Flower/WhiteFollower.prefab
 --- !u!114 &11448870
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -106,6 +106,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   goal: {fileID: 150430, guid: e848c1dd81d4545498b1a037827614fe, type: 2}
+=======
+>>>>>>> 3068c4c513034c7c2dedeb69d713fc9517f5a542:Assets/Prefabs/Enemies/Flower/WhiteFollower.prefab
 --- !u!114 &11461938
 MonoBehaviour:
   m_ObjectHideFlags: 1
