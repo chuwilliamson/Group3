@@ -5,7 +5,6 @@ public class EnemyManager : MonoBehaviour {
 
 	//public GameObject Enemy;
 	//public GameObject Enemy2;
-	public Material[] randomMaterials;
 	public GameObject[] Enemy;
 	public GameObject Portals;
 	public GameObject Text;
