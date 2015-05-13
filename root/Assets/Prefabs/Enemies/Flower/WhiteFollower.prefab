@@ -45,7 +45,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 2100000, guid: f9f25cd824631464d968a7ef3e29b57a, type: 2}
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -93,21 +93,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 58.7379837, y: 60, z: 55.0942383}
   m_Center: {x: 0, y: 30, z: 0}
-<<<<<<< HEAD:root/Assets/Prefabs/Enemies/Flower/WhiteFollower.prefab
---- !u!114 &11448870
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 160308}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd62bb6621f4ae54fa7c78e0b3007345, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  goal: {fileID: 150430, guid: e848c1dd81d4545498b1a037827614fe, type: 2}
-=======
->>>>>>> 3068c4c513034c7c2dedeb69d713fc9517f5a542:Assets/Prefabs/Enemies/Flower/WhiteFollower.prefab
 --- !u!114 &11461938
 MonoBehaviour:
   m_ObjectHideFlags: 1
