@@ -22,8 +22,9 @@ public class CGameGUI : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        health.text ="Health: " + scoreKeeper.playerHealth;
-        monstersKilled.text = "Monsters Killed: " + scoreKeeper.monstersKilled;
+        //health.text ="Health: " + scoreKeeper.playerHealth;
+        health.text = CScoreData.playerHealth.ToString();
+        monstersKilled.text = "Monsters Killed: " + CScoreData.monstersKilled;
         pickupTimer.text = "Pickup Timer: " + scoreKeeper.pickupTimer;
     }
 

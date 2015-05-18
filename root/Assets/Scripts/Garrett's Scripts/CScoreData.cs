@@ -2,15 +2,36 @@
 using System.Collections;
 
 public class CScoreData : MonoBehaviour {
+    
+    static public float playerHealth
+    {
+        get
+        {           
+            return GameObject.FindGameObjectWithTag("Player").GetComponent<CTakeDamage>().health;
+        }
 
-    public float playerHealth;
-    public int monstersKilled;
+        set
+        {
+            GameObject.FindGameObjectWithTag("Player").GetComponent<CTakeDamage>().health -= value;
+        }
+    }
+
+    static private int mk;
+    static public int monstersKilled
+    {
+        get
+        {
+            return mk;
+        }
+
+        set
+        {
+            mk += value;
+        }
+    }
     public float pickupTimer;
 
-    void Awake()
-    {
-        playerHealth = GameObject.FindGameObjectWithTag("Player").GetComponent<CTakeDamage>().health;
-    }
+ 
 	// Use this for initialization
 	void Start () {
 	
