@@ -42,7 +42,7 @@ public class CPlayerWeapon : CWeapon {
 
         if(Input.GetKey(KeyCode.Mouse0))
         {
-            anim.SetTrigger("DoubleFireBall");
+            GameObject.FindGameObjectWithTag("Player").GetComponent<Animator>().SetTrigger("DoubleFireBall");
         }
 
         if(type != "Starting Weapon")
