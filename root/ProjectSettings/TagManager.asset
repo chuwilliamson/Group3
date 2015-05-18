@@ -7,6 +7,7 @@ TagManager:
   - Projectile
   - Enemy
   - Bucket
+  - ScoreKeeper
   layers:
   - Default
   - TransparentFX
