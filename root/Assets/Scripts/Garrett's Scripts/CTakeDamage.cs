@@ -8,6 +8,7 @@ public class CTakeDamage : MonoBehaviour {
     void Awake()
     {
        // print("stuff");
+       
     }
 
    
@@ -30,6 +31,7 @@ public class CTakeDamage : MonoBehaviour {
             if(a_col.transform.gameObject.tag == "Enemy")
             {
                 health -= a_col.gameObject.GetComponent<CEnemy>().attackDamage;
+                GameObject.FindGameObjectWithTag("ScoreKeeper").GetComponent<CScoreData>().playerHealth -= a_col.gameObject.GetComponent<CEnemy>().attackDamage;
                 anim.SetTrigger("TakeDamage"); 
             }
         }        
@@ -44,6 +46,11 @@ public class CTakeDamage : MonoBehaviour {
             if (this.gameObject.tag == "Player")
             {
                 anim.SetTrigger("ded");
+            }
+
+            if(this.gameObject.tag == "Enemy")
+            {
+                GameObject.FindGameObjectWithTag("ScoreKeeper").GetComponent<CScoreData>().monstersKilled++;
             }
             Destroy(this.gameObject);
         }
