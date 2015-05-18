@@ -40,6 +40,7 @@ public class CWeapon : MonoBehaviour
     {
         rof = Random.Range(0.01f, value * 0.02f);
         lifetime = Random.Range(1, value);
+        GameObject.FindGameObjectWithTag("ScoreKeeper").GetComponent<CScoreData>().pickupTimer = lifetime;
         CProjectile proj = projectile.GetComponent<CProjectile>();
         proj.speed = Random.Range(50, value * 4);
         proj.damage = Random.Range(1, value);
