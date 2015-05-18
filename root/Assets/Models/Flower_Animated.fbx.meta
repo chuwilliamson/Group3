@@ -1,0 +1,839 @@
+fileFormatVersion: 2
+guid: f5044f01aa4106f47a62169ac3ec4dde
+timeCreated: 1431982726
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: flower:joint2
+    100002: flower:joint3
+    100004: flower:joint4
+    100006: flower:joint5
+    100008: flower:joint6
+    100010: flower:joint7
+    100012: flower:joint8
+    100014: flower:joint9
+    100016: flower:Plant_joint1
+    100018: flower:Plant_joint10
+    100020: flower:Plant_joint11
+    100022: flower:Plant_joint12
+    100024: flower:Plant_joint13
+    100026: flower:Plant_joint14
+    100028: flower:Plant_joint15
+    100030: flower:Plant_joint16
+    100032: flower:Plant_joint17
+    100034: flower:Plant_joint18
+    100036: flower:Plant_joint19
+    100038: flower:Plant_joint2
+    100040: flower:Plant_joint20
+    100042: flower:Plant_joint21
+    100044: flower:Plant_joint22
+    100046: flower:Plant_joint23
+    100048: flower:Plant_joint24
+    100050: flower:Plant_joint25
+    100052: flower:Plant_joint26
+    100054: flower:Plant_joint27
+    100056: flower:Plant_joint28
+    100058: flower:Plant_joint29
+    100060: flower:Plant_joint3
+    100062: flower:Plant_joint4
+    100064: flower:Plant_joint5
+    100066: flower:Plant_joint6
+    100068: flower:Plant_joint7
+    100070: flower:Plant_joint8
+    100072: flower:Plant_joint9
+    100074: flower:pPlane1
+    100076: flower:pPlane2
+    100078: flower:pPlane3
+    100080: flower:pPlane4
+    100082: flower:pSphere1
+    100084: flower:pSphere2
+    100086: flower:pSphere3
+    100088: flower:pSphere5
+    100090: flower:transform1
+    100092: flower:transform2
+    100094: flower:transform3
+    100096: flower:transform4
+    100098: flower:transform5
+    100100: flower:transform6
+    100102: flower:transform7
+    100104: //RootNode
+    400000: flower:joint2
+    400002: flower:joint3
+    400004: flower:joint4
+    400006: flower:joint5
+    400008: flower:joint6
+    400010: flower:joint7
+    400012: flower:joint8
+    400014: flower:joint9
+    400016: flower:Plant_joint1
+    400018: flower:Plant_joint10
+    400020: flower:Plant_joint11
+    400022: flower:Plant_joint12
+    400024: flower:Plant_joint13
+    400026: flower:Plant_joint14
+    400028: flower:Plant_joint15
+    400030: flower:Plant_joint16
+    400032: flower:Plant_joint17
+    400034: flower:Plant_joint18
+    400036: flower:Plant_joint19
+    400038: flower:Plant_joint2
+    400040: flower:Plant_joint20
+    400042: flower:Plant_joint21
+    400044: flower:Plant_joint22
+    400046: flower:Plant_joint23
+    400048: flower:Plant_joint24
+    400050: flower:Plant_joint25
+    400052: flower:Plant_joint26
+    400054: flower:Plant_joint27
+    400056: flower:Plant_joint28
+    400058: flower:Plant_joint29
+    400060: flower:Plant_joint3
+    400062: flower:Plant_joint4
+    400064: flower:Plant_joint5
+    400066: flower:Plant_joint6
+    400068: flower:Plant_joint7
+    400070: flower:Plant_joint8
+    400072: flower:Plant_joint9
+    400074: flower:pPlane1
+    400076: flower:pPlane2
+    400078: flower:pPlane3
+    400080: flower:pPlane4
+    400082: flower:pSphere1
+    400084: flower:pSphere2
+    400086: flower:pSphere3
+    400088: flower:pSphere5
+    400090: flower:transform1
+    400092: flower:transform2
+    400094: flower:transform3
+    400096: flower:transform4
+    400098: flower:transform5
+    400100: flower:transform6
+    400102: flower:transform7
+    400104: //RootNode
+    4300000: flower:pSphere5
+    7400000: walk
+    7400002: idle
+    7400004: attack
+    7400006: death
+    7400008: gotHit
+    9500000: //RootNode
+    13700000: flower:pSphere5
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: walk
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: flower:Plant_joint1
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint4
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint4/flower:Plant_joint5
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint4/flower:Plant_joint5/flower:joint2
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint4/flower:Plant_joint5/flower:joint2/flower:joint3
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint4/flower:Plant_joint5/flower:joint4
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint4/flower:Plant_joint5/flower:joint4/flower:joint5
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint4/flower:Plant_joint5/flower:joint6
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint4/flower:Plant_joint5/flower:joint6/flower:joint7
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint4/flower:Plant_joint5/flower:joint8
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint4/flower:Plant_joint5/flower:joint8/flower:joint9
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint6
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint6/flower:Plant_joint7
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint6/flower:Plant_joint7/flower:Plant_joint8
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint6/flower:Plant_joint7/flower:Plant_joint8/flower:Plant_joint9
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint26
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint26/flower:Plant_joint27
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint26/flower:Plant_joint27/flower:Plant_joint28
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint26/flower:Plant_joint27/flower:Plant_joint28/flower:Plant_joint29
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint10
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint10/flower:Plant_joint11
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint10/flower:Plant_joint11/flower:Plant_joint12
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint10/flower:Plant_joint11/flower:Plant_joint12/flower:Plant_joint13
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint14
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint14/flower:Plant_joint15
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint14/flower:Plant_joint15/flower:Plant_joint16
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint14/flower:Plant_joint15/flower:Plant_joint16/flower:Plant_joint17
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint18
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint18/flower:Plant_joint19
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint18/flower:Plant_joint19/flower:Plant_joint20
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint18/flower:Plant_joint19/flower:Plant_joint20/flower:Plant_joint21
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint22
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint22/flower:Plant_joint23
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint22/flower:Plant_joint23/flower:Plant_joint24
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint22/flower:Plant_joint23/flower:Plant_joint24/flower:Plant_joint25
+        weight: 1
+      - path: flower:pPlane1
+        weight: 1
+      - path: flower:pPlane1/flower:transform6
+        weight: 1
+      - path: flower:pPlane2
+        weight: 1
+      - path: flower:pPlane2/flower:transform5
+        weight: 1
+      - path: flower:pPlane3
+        weight: 1
+      - path: flower:pPlane3/flower:transform4
+        weight: 1
+      - path: flower:pPlane4
+        weight: 1
+      - path: flower:pPlane4/flower:transform3
+        weight: 1
+      - path: flower:pSphere1
+        weight: 1
+      - path: flower:pSphere1/flower:transform1
+        weight: 1
+      - path: flower:pSphere2
+        weight: 1
+      - path: flower:pSphere2/flower:transform2
+        weight: 1
+      - path: flower:pSphere3
+        weight: 1
+      - path: flower:pSphere3/flower:transform7
+        weight: 1
+      - path: flower:pSphere5
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      firstFrame: 26
+      lastFrame: 66
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: flower:Plant_joint1
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint4
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint4/flower:Plant_joint5
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint4/flower:Plant_joint5/flower:joint2
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint4/flower:Plant_joint5/flower:joint2/flower:joint3
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint4/flower:Plant_joint5/flower:joint4
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint4/flower:Plant_joint5/flower:joint4/flower:joint5
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint4/flower:Plant_joint5/flower:joint6
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint4/flower:Plant_joint5/flower:joint6/flower:joint7
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint4/flower:Plant_joint5/flower:joint8
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint4/flower:Plant_joint5/flower:joint8/flower:joint9
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint6
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint6/flower:Plant_joint7
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint6/flower:Plant_joint7/flower:Plant_joint8
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint6/flower:Plant_joint7/flower:Plant_joint8/flower:Plant_joint9
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint26
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint26/flower:Plant_joint27
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint26/flower:Plant_joint27/flower:Plant_joint28
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint26/flower:Plant_joint27/flower:Plant_joint28/flower:Plant_joint29
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint10
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint10/flower:Plant_joint11
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint10/flower:Plant_joint11/flower:Plant_joint12
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint10/flower:Plant_joint11/flower:Plant_joint12/flower:Plant_joint13
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint14
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint14/flower:Plant_joint15
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint14/flower:Plant_joint15/flower:Plant_joint16
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint14/flower:Plant_joint15/flower:Plant_joint16/flower:Plant_joint17
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint18
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint18/flower:Plant_joint19
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint18/flower:Plant_joint19/flower:Plant_joint20
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint18/flower:Plant_joint19/flower:Plant_joint20/flower:Plant_joint21
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint22
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint22/flower:Plant_joint23
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint22/flower:Plant_joint23/flower:Plant_joint24
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint22/flower:Plant_joint23/flower:Plant_joint24/flower:Plant_joint25
+        weight: 1
+      - path: flower:pPlane1
+        weight: 1
+      - path: flower:pPlane1/flower:transform6
+        weight: 1
+      - path: flower:pPlane2
+        weight: 1
+      - path: flower:pPlane2/flower:transform5
+        weight: 1
+      - path: flower:pPlane3
+        weight: 1
+      - path: flower:pPlane3/flower:transform4
+        weight: 1
+      - path: flower:pPlane4
+        weight: 1
+      - path: flower:pPlane4/flower:transform3
+        weight: 1
+      - path: flower:pSphere1
+        weight: 1
+      - path: flower:pSphere1/flower:transform1
+        weight: 1
+      - path: flower:pSphere2
+        weight: 1
+      - path: flower:pSphere2/flower:transform2
+        weight: 1
+      - path: flower:pSphere3
+        weight: 1
+      - path: flower:pSphere3/flower:transform7
+        weight: 1
+      - path: flower:pSphere5
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: attack
+      takeName: Take 001
+      firstFrame: 68
+      lastFrame: 108
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: flower:Plant_joint1
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint4
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint4/flower:Plant_joint5
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint4/flower:Plant_joint5/flower:joint2
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint4/flower:Plant_joint5/flower:joint2/flower:joint3
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint4/flower:Plant_joint5/flower:joint4
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint4/flower:Plant_joint5/flower:joint4/flower:joint5
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint4/flower:Plant_joint5/flower:joint6
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint4/flower:Plant_joint5/flower:joint6/flower:joint7
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint4/flower:Plant_joint5/flower:joint8
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint4/flower:Plant_joint5/flower:joint8/flower:joint9
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint6
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint6/flower:Plant_joint7
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint6/flower:Plant_joint7/flower:Plant_joint8
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint6/flower:Plant_joint7/flower:Plant_joint8/flower:Plant_joint9
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint26
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint26/flower:Plant_joint27
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint26/flower:Plant_joint27/flower:Plant_joint28
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint26/flower:Plant_joint27/flower:Plant_joint28/flower:Plant_joint29
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint10
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint10/flower:Plant_joint11
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint10/flower:Plant_joint11/flower:Plant_joint12
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint10/flower:Plant_joint11/flower:Plant_joint12/flower:Plant_joint13
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint14
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint14/flower:Plant_joint15
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint14/flower:Plant_joint15/flower:Plant_joint16
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint14/flower:Plant_joint15/flower:Plant_joint16/flower:Plant_joint17
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint18
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint18/flower:Plant_joint19
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint18/flower:Plant_joint19/flower:Plant_joint20
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint18/flower:Plant_joint19/flower:Plant_joint20/flower:Plant_joint21
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint22
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint22/flower:Plant_joint23
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint22/flower:Plant_joint23/flower:Plant_joint24
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint22/flower:Plant_joint23/flower:Plant_joint24/flower:Plant_joint25
+        weight: 1
+      - path: flower:pPlane1
+        weight: 1
+      - path: flower:pPlane1/flower:transform6
+        weight: 1
+      - path: flower:pPlane2
+        weight: 1
+      - path: flower:pPlane2/flower:transform5
+        weight: 1
+      - path: flower:pPlane3
+        weight: 1
+      - path: flower:pPlane3/flower:transform4
+        weight: 1
+      - path: flower:pPlane4
+        weight: 1
+      - path: flower:pPlane4/flower:transform3
+        weight: 1
+      - path: flower:pSphere1
+        weight: 1
+      - path: flower:pSphere1/flower:transform1
+        weight: 1
+      - path: flower:pSphere2
+        weight: 1
+      - path: flower:pSphere2/flower:transform2
+        weight: 1
+      - path: flower:pSphere3
+        weight: 1
+      - path: flower:pSphere3/flower:transform7
+        weight: 1
+      - path: flower:pSphere5
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: death
+      takeName: Take 001
+      firstFrame: 110
+      lastFrame: 150
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: flower:Plant_joint1
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint4
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint4/flower:Plant_joint5
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint4/flower:Plant_joint5/flower:joint2
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint4/flower:Plant_joint5/flower:joint2/flower:joint3
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint4/flower:Plant_joint5/flower:joint4
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint4/flower:Plant_joint5/flower:joint4/flower:joint5
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint4/flower:Plant_joint5/flower:joint6
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint4/flower:Plant_joint5/flower:joint6/flower:joint7
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint4/flower:Plant_joint5/flower:joint8
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint4/flower:Plant_joint5/flower:joint8/flower:joint9
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint6
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint6/flower:Plant_joint7
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint6/flower:Plant_joint7/flower:Plant_joint8
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint6/flower:Plant_joint7/flower:Plant_joint8/flower:Plant_joint9
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint26
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint26/flower:Plant_joint27
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint26/flower:Plant_joint27/flower:Plant_joint28
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint26/flower:Plant_joint27/flower:Plant_joint28/flower:Plant_joint29
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint10
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint10/flower:Plant_joint11
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint10/flower:Plant_joint11/flower:Plant_joint12
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint10/flower:Plant_joint11/flower:Plant_joint12/flower:Plant_joint13
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint14
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint14/flower:Plant_joint15
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint14/flower:Plant_joint15/flower:Plant_joint16
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint14/flower:Plant_joint15/flower:Plant_joint16/flower:Plant_joint17
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint18
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint18/flower:Plant_joint19
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint18/flower:Plant_joint19/flower:Plant_joint20
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint18/flower:Plant_joint19/flower:Plant_joint20/flower:Plant_joint21
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint22
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint22/flower:Plant_joint23
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint22/flower:Plant_joint23/flower:Plant_joint24
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint22/flower:Plant_joint23/flower:Plant_joint24/flower:Plant_joint25
+        weight: 1
+      - path: flower:pPlane1
+        weight: 1
+      - path: flower:pPlane1/flower:transform6
+        weight: 1
+      - path: flower:pPlane2
+        weight: 1
+      - path: flower:pPlane2/flower:transform5
+        weight: 1
+      - path: flower:pPlane3
+        weight: 1
+      - path: flower:pPlane3/flower:transform4
+        weight: 1
+      - path: flower:pPlane4
+        weight: 1
+      - path: flower:pPlane4/flower:transform3
+        weight: 1
+      - path: flower:pSphere1
+        weight: 1
+      - path: flower:pSphere1/flower:transform1
+        weight: 1
+      - path: flower:pSphere2
+        weight: 1
+      - path: flower:pSphere2/flower:transform2
+        weight: 1
+      - path: flower:pSphere3
+        weight: 1
+      - path: flower:pSphere3/flower:transform7
+        weight: 1
+      - path: flower:pSphere5
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: gotHit
+      takeName: Take 001
+      firstFrame: 110
+      lastFrame: 125
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: flower:Plant_joint1
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint4
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint4/flower:Plant_joint5
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint4/flower:Plant_joint5/flower:joint2
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint4/flower:Plant_joint5/flower:joint2/flower:joint3
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint4/flower:Plant_joint5/flower:joint4
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint4/flower:Plant_joint5/flower:joint4/flower:joint5
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint4/flower:Plant_joint5/flower:joint6
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint4/flower:Plant_joint5/flower:joint6/flower:joint7
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint4/flower:Plant_joint5/flower:joint8
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint4/flower:Plant_joint5/flower:joint8/flower:joint9
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint6
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint6/flower:Plant_joint7
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint6/flower:Plant_joint7/flower:Plant_joint8
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint6/flower:Plant_joint7/flower:Plant_joint8/flower:Plant_joint9
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint26
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint26/flower:Plant_joint27
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint26/flower:Plant_joint27/flower:Plant_joint28
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint2/flower:Plant_joint3/flower:Plant_joint26/flower:Plant_joint27/flower:Plant_joint28/flower:Plant_joint29
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint10
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint10/flower:Plant_joint11
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint10/flower:Plant_joint11/flower:Plant_joint12
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint10/flower:Plant_joint11/flower:Plant_joint12/flower:Plant_joint13
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint14
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint14/flower:Plant_joint15
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint14/flower:Plant_joint15/flower:Plant_joint16
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint14/flower:Plant_joint15/flower:Plant_joint16/flower:Plant_joint17
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint18
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint18/flower:Plant_joint19
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint18/flower:Plant_joint19/flower:Plant_joint20
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint18/flower:Plant_joint19/flower:Plant_joint20/flower:Plant_joint21
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint22
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint22/flower:Plant_joint23
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint22/flower:Plant_joint23/flower:Plant_joint24
+        weight: 1
+      - path: flower:Plant_joint1/flower:Plant_joint22/flower:Plant_joint23/flower:Plant_joint24/flower:Plant_joint25
+        weight: 1
+      - path: flower:pPlane1
+        weight: 1
+      - path: flower:pPlane1/flower:transform6
+        weight: 1
+      - path: flower:pPlane2
+        weight: 1
+      - path: flower:pPlane2/flower:transform5
+        weight: 1
+      - path: flower:pPlane3
+        weight: 1
+      - path: flower:pPlane3/flower:transform4
+        weight: 1
+      - path: flower:pPlane4
+        weight: 1
+      - path: flower:pPlane4/flower:transform3
+        weight: 1
+      - path: flower:pSphere1
+        weight: 1
+      - path: flower:pSphere1/flower:transform1
+        weight: 1
+      - path: flower:pSphere2
+        weight: 1
+      - path: flower:pSphere2/flower:transform2
+        weight: 1
+      - path: flower:pSphere3
+        weight: 1
+      - path: flower:pSphere3/flower:transform7
+        weight: 1
+      - path: flower:pSphere5
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 3
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
