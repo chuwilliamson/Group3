@@ -1,0 +1,267 @@
+fileFormatVersion: 2
+guid: ae7bf6e882f5d3145ad694a75174a450
+timeCreated: 1431967425
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: FlyTrap:group
+    100002: FlyTrap:group1
+    100004: FlyTrap:pasted__joint4
+    100006: FlyTrap:pasted__joint5
+    100008: FlyTrap:pasted__joint8
+    100010: FlyTrap:pasted__joint9
+    100012: FlyTrap:pasted__Plant_joint1
+    100014: FlyTrap:pasted__Plant_joint10
+    100016: FlyTrap:pasted__Plant_joint11
+    100018: FlyTrap:pasted__Plant_joint12
+    100020: FlyTrap:pasted__Plant_joint13
+    100022: FlyTrap:pasted__Plant_joint14
+    100024: FlyTrap:pasted__Plant_joint15
+    100026: FlyTrap:pasted__Plant_joint16
+    100028: FlyTrap:pasted__Plant_joint17
+    100030: FlyTrap:pasted__Plant_joint18
+    100032: FlyTrap:pasted__Plant_joint19
+    100034: FlyTrap:pasted__Plant_joint2
+    100036: FlyTrap:pasted__Plant_joint20
+    100038: FlyTrap:pasted__Plant_joint21
+    100040: FlyTrap:pasted__Plant_joint22
+    100042: FlyTrap:pasted__Plant_joint23
+    100044: FlyTrap:pasted__Plant_joint24
+    100046: FlyTrap:pasted__Plant_joint25
+    100048: FlyTrap:pasted__Plant_joint26
+    100050: FlyTrap:pasted__Plant_joint27
+    100052: FlyTrap:pasted__Plant_joint28
+    100054: FlyTrap:pasted__Plant_joint29
+    100056: FlyTrap:pasted__Plant_joint3
+    100058: FlyTrap:pasted__Plant_joint4
+    100060: FlyTrap:pasted__Plant_joint5
+    100062: FlyTrap:pasted__Plant_joint6
+    100064: FlyTrap:pasted__Plant_joint7
+    100066: FlyTrap:pasted__Plant_joint8
+    100068: FlyTrap:pasted__Plant_joint9
+    100070: FlyTrap:polySurface1
+    100072: FlyTrap:polySurface2
+    100074: FlyTrap:pSphere4
+    100076: FlyTrap:pSphere4 1
+    100078: FlyTrap:transform10
+    100080: FlyTrap:transform8
+    100082: FlyTrap:transform9
+    100084: //RootNode
+    400000: FlyTrap:group
+    400002: FlyTrap:group1
+    400004: FlyTrap:pasted__joint4
+    400006: FlyTrap:pasted__joint5
+    400008: FlyTrap:pasted__joint8
+    400010: FlyTrap:pasted__joint9
+    400012: FlyTrap:pasted__Plant_joint1
+    400014: FlyTrap:pasted__Plant_joint10
+    400016: FlyTrap:pasted__Plant_joint11
+    400018: FlyTrap:pasted__Plant_joint12
+    400020: FlyTrap:pasted__Plant_joint13
+    400022: FlyTrap:pasted__Plant_joint14
+    400024: FlyTrap:pasted__Plant_joint15
+    400026: FlyTrap:pasted__Plant_joint16
+    400028: FlyTrap:pasted__Plant_joint17
+    400030: FlyTrap:pasted__Plant_joint18
+    400032: FlyTrap:pasted__Plant_joint19
+    400034: FlyTrap:pasted__Plant_joint2
+    400036: FlyTrap:pasted__Plant_joint20
+    400038: FlyTrap:pasted__Plant_joint21
+    400040: FlyTrap:pasted__Plant_joint22
+    400042: FlyTrap:pasted__Plant_joint23
+    400044: FlyTrap:pasted__Plant_joint24
+    400046: FlyTrap:pasted__Plant_joint25
+    400048: FlyTrap:pasted__Plant_joint26
+    400050: FlyTrap:pasted__Plant_joint27
+    400052: FlyTrap:pasted__Plant_joint28
+    400054: FlyTrap:pasted__Plant_joint29
+    400056: FlyTrap:pasted__Plant_joint3
+    400058: FlyTrap:pasted__Plant_joint4
+    400060: FlyTrap:pasted__Plant_joint5
+    400062: FlyTrap:pasted__Plant_joint6
+    400064: FlyTrap:pasted__Plant_joint7
+    400066: FlyTrap:pasted__Plant_joint8
+    400068: FlyTrap:pasted__Plant_joint9
+    400070: FlyTrap:polySurface1
+    400072: FlyTrap:polySurface2
+    400074: FlyTrap:pSphere4
+    400076: FlyTrap:pSphere4 1
+    400078: FlyTrap:transform10
+    400080: FlyTrap:transform8
+    400082: FlyTrap:transform9
+    400084: //RootNode
+    4300000: FlyTrap:pSphere4
+    7400000: idle
+    9500000: //RootNode
+    13700000: FlyTrap:pSphere4
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: FlyTrap:group
+        weight: 1
+      - path: FlyTrap:group/FlyTrap:pasted__Plant_joint1
+        weight: 1
+      - path: FlyTrap:group/FlyTrap:pasted__Plant_joint1/FlyTrap:pasted__Plant_joint2
+        weight: 1
+      - path: FlyTrap:group/FlyTrap:pasted__Plant_joint1/FlyTrap:pasted__Plant_joint2/FlyTrap:pasted__Plant_joint3
+        weight: 1
+      - path: FlyTrap:group/FlyTrap:pasted__Plant_joint1/FlyTrap:pasted__Plant_joint2/FlyTrap:pasted__Plant_joint3/FlyTrap:pasted__Plant_joint4
+        weight: 1
+      - path: FlyTrap:group/FlyTrap:pasted__Plant_joint1/FlyTrap:pasted__Plant_joint2/FlyTrap:pasted__Plant_joint3/FlyTrap:pasted__Plant_joint4/FlyTrap:pasted__Plant_joint5
+        weight: 1
+      - path: FlyTrap:group/FlyTrap:pasted__Plant_joint1/FlyTrap:pasted__Plant_joint2/FlyTrap:pasted__Plant_joint3/FlyTrap:pasted__Plant_joint4/FlyTrap:pasted__Plant_joint5/FlyTrap:pasted__joint4
+        weight: 1
+      - path: FlyTrap:group/FlyTrap:pasted__Plant_joint1/FlyTrap:pasted__Plant_joint2/FlyTrap:pasted__Plant_joint3/FlyTrap:pasted__Plant_joint4/FlyTrap:pasted__Plant_joint5/FlyTrap:pasted__joint4/FlyTrap:pasted__joint5
+        weight: 1
+      - path: FlyTrap:group/FlyTrap:pasted__Plant_joint1/FlyTrap:pasted__Plant_joint2/FlyTrap:pasted__Plant_joint3/FlyTrap:pasted__Plant_joint4/FlyTrap:pasted__Plant_joint5/FlyTrap:pasted__joint8
+        weight: 1
+      - path: FlyTrap:group/FlyTrap:pasted__Plant_joint1/FlyTrap:pasted__Plant_joint2/FlyTrap:pasted__Plant_joint3/FlyTrap:pasted__Plant_joint4/FlyTrap:pasted__Plant_joint5/FlyTrap:pasted__joint8/FlyTrap:pasted__joint9
+        weight: 1
+      - path: FlyTrap:group/FlyTrap:pasted__Plant_joint1/FlyTrap:pasted__Plant_joint2/FlyTrap:pasted__Plant_joint3/FlyTrap:pasted__Plant_joint6
+        weight: 1
+      - path: FlyTrap:group/FlyTrap:pasted__Plant_joint1/FlyTrap:pasted__Plant_joint2/FlyTrap:pasted__Plant_joint3/FlyTrap:pasted__Plant_joint6/FlyTrap:pasted__Plant_joint7
+        weight: 1
+      - path: FlyTrap:group/FlyTrap:pasted__Plant_joint1/FlyTrap:pasted__Plant_joint2/FlyTrap:pasted__Plant_joint3/FlyTrap:pasted__Plant_joint6/FlyTrap:pasted__Plant_joint7/FlyTrap:pasted__Plant_joint8
+        weight: 1
+      - path: FlyTrap:group/FlyTrap:pasted__Plant_joint1/FlyTrap:pasted__Plant_joint2/FlyTrap:pasted__Plant_joint3/FlyTrap:pasted__Plant_joint6/FlyTrap:pasted__Plant_joint7/FlyTrap:pasted__Plant_joint8/FlyTrap:pasted__Plant_joint9
+        weight: 1
+      - path: FlyTrap:group/FlyTrap:pasted__Plant_joint1/FlyTrap:pasted__Plant_joint2/FlyTrap:pasted__Plant_joint3/FlyTrap:pasted__Plant_joint26
+        weight: 1
+      - path: FlyTrap:group/FlyTrap:pasted__Plant_joint1/FlyTrap:pasted__Plant_joint2/FlyTrap:pasted__Plant_joint3/FlyTrap:pasted__Plant_joint26/FlyTrap:pasted__Plant_joint27
+        weight: 1
+      - path: FlyTrap:group/FlyTrap:pasted__Plant_joint1/FlyTrap:pasted__Plant_joint2/FlyTrap:pasted__Plant_joint3/FlyTrap:pasted__Plant_joint26/FlyTrap:pasted__Plant_joint27/FlyTrap:pasted__Plant_joint28
+        weight: 1
+      - path: FlyTrap:group/FlyTrap:pasted__Plant_joint1/FlyTrap:pasted__Plant_joint2/FlyTrap:pasted__Plant_joint3/FlyTrap:pasted__Plant_joint26/FlyTrap:pasted__Plant_joint27/FlyTrap:pasted__Plant_joint28/FlyTrap:pasted__Plant_joint29
+        weight: 1
+      - path: FlyTrap:group/FlyTrap:pasted__Plant_joint1/FlyTrap:pasted__Plant_joint10
+        weight: 1
+      - path: FlyTrap:group/FlyTrap:pasted__Plant_joint1/FlyTrap:pasted__Plant_joint10/FlyTrap:pasted__Plant_joint11
+        weight: 1
+      - path: FlyTrap:group/FlyTrap:pasted__Plant_joint1/FlyTrap:pasted__Plant_joint10/FlyTrap:pasted__Plant_joint11/FlyTrap:pasted__Plant_joint12
+        weight: 1
+      - path: FlyTrap:group/FlyTrap:pasted__Plant_joint1/FlyTrap:pasted__Plant_joint10/FlyTrap:pasted__Plant_joint11/FlyTrap:pasted__Plant_joint12/FlyTrap:pasted__Plant_joint13
+        weight: 1
+      - path: FlyTrap:group/FlyTrap:pasted__Plant_joint1/FlyTrap:pasted__Plant_joint14
+        weight: 1
+      - path: FlyTrap:group/FlyTrap:pasted__Plant_joint1/FlyTrap:pasted__Plant_joint14/FlyTrap:pasted__Plant_joint15
+        weight: 1
+      - path: FlyTrap:group/FlyTrap:pasted__Plant_joint1/FlyTrap:pasted__Plant_joint14/FlyTrap:pasted__Plant_joint15/FlyTrap:pasted__Plant_joint16
+        weight: 1
+      - path: FlyTrap:group/FlyTrap:pasted__Plant_joint1/FlyTrap:pasted__Plant_joint14/FlyTrap:pasted__Plant_joint15/FlyTrap:pasted__Plant_joint16/FlyTrap:pasted__Plant_joint17
+        weight: 1
+      - path: FlyTrap:group/FlyTrap:pasted__Plant_joint1/FlyTrap:pasted__Plant_joint18
+        weight: 1
+      - path: FlyTrap:group/FlyTrap:pasted__Plant_joint1/FlyTrap:pasted__Plant_joint18/FlyTrap:pasted__Plant_joint19
+        weight: 1
+      - path: FlyTrap:group/FlyTrap:pasted__Plant_joint1/FlyTrap:pasted__Plant_joint18/FlyTrap:pasted__Plant_joint19/FlyTrap:pasted__Plant_joint20
+        weight: 1
+      - path: FlyTrap:group/FlyTrap:pasted__Plant_joint1/FlyTrap:pasted__Plant_joint18/FlyTrap:pasted__Plant_joint19/FlyTrap:pasted__Plant_joint20/FlyTrap:pasted__Plant_joint21
+        weight: 1
+      - path: FlyTrap:group/FlyTrap:pasted__Plant_joint1/FlyTrap:pasted__Plant_joint22
+        weight: 1
+      - path: FlyTrap:group/FlyTrap:pasted__Plant_joint1/FlyTrap:pasted__Plant_joint22/FlyTrap:pasted__Plant_joint23
+        weight: 1
+      - path: FlyTrap:group/FlyTrap:pasted__Plant_joint1/FlyTrap:pasted__Plant_joint22/FlyTrap:pasted__Plant_joint23/FlyTrap:pasted__Plant_joint24
+        weight: 1
+      - path: FlyTrap:group/FlyTrap:pasted__Plant_joint1/FlyTrap:pasted__Plant_joint22/FlyTrap:pasted__Plant_joint23/FlyTrap:pasted__Plant_joint24/FlyTrap:pasted__Plant_joint25
+        weight: 1
+      - path: FlyTrap:group1
+        weight: 1
+      - path: FlyTrap:group1/FlyTrap:polySurface1
+        weight: 1
+      - path: FlyTrap:group1/FlyTrap:polySurface1/FlyTrap:transform9
+        weight: 1
+      - path: FlyTrap:group1/FlyTrap:polySurface2
+        weight: 1
+      - path: FlyTrap:group1/FlyTrap:polySurface2/FlyTrap:transform8
+        weight: 1
+      - path: FlyTrap:group1/FlyTrap:pSphere4 1
+        weight: 1
+      - path: FlyTrap:group1/FlyTrap:pSphere4 1/FlyTrap:transform10
+        weight: 1
+      - path: FlyTrap:pSphere4
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 3
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

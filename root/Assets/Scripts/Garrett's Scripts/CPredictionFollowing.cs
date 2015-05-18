@@ -11,7 +11,7 @@ public class CPredictionFollowing : MonoBehaviour {
     void Awake()
     {
         agent = GetComponent<NavMeshAgent>();
-        target = GameObject.Find("PlayerBody");
+        target = GameObject.FindGameObjectWithTag("Player");
 
         
     }
