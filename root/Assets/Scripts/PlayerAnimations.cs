@@ -6,7 +6,7 @@ public class PlayerAnimations : MonoBehaviour {
     {
         print("anim on awake");
     }
-    private void OnCollisionEnter(Collision o)
+    private void ControllerColliderHit(Collision o)
     {
         print(o.transform.gameObject.tag);
         if(o.transform.gameObject.tag == "Enemy")
