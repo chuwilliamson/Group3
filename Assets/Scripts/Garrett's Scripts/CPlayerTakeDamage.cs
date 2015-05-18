@@ -29,6 +29,8 @@ public class CPlayerTakeDamage : MonoBehaviour {
 	void Update () {
 	    if(health <=0)
         {
+            PlayerController pc = GetComponent<PlayerController>();
+            Destroy(pc);
             anim.SetBool("ded", true);
             print("dead");
         }
