@@ -1,6 +1,11 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 583b143c62d132d4f8166c4bba586907
 timeCreated: 1431977906
+=======
+guid: 3bb6bc6f59aa64848b9312d89665840a
+timeCreated: 1431979437
+>>>>>>> chuwilliamson/master
 licenseType: Free
 MonoImporter:
   serializedVersion: 2

@@ -1,7 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 8a48d63ed16eedd45844b4868e8e0742
 folderAsset: yes
 timeCreated: 1431977911
+=======
+guid: 5ca4d76466e6b284bb4ee33216088101
+folderAsset: yes
+timeCreated: 1431979438
+>>>>>>> chuwilliamson/master
 licenseType: Free
 DefaultImporter:
   userData: 
