@@ -28,7 +28,8 @@ public class CWeapon : MonoBehaviour
         if (Input.GetKey(KeyCode.Mouse0) && timer < 0)
         {
             GameObject instPrefab = Instantiate(projectile, GetComponent<Transform>().position, GetComponent<Transform>().rotation) as GameObject;
-            instPrefab.transform.parent = GameObject.Find("Bucket").transform;
+           // instPrefab.transform.parent = GameObject.Find("Bucket").transform;
+            instPrefab.transform.parent = GameObject.FindGameObjectWithTag("Bucket").transform;
             timer = rof;
         }
 
