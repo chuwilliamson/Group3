@@ -1,48 +1,91 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class EnemyManager : MonoBehaviour {
 
-	//public GameObject Enemy;
-	//public GameObject Enemy2;
-	public GameObject[] Enemy;
-	public GameObject Portals;
-	public GameObject Text;
-	public float SpawnTimer;
-	public float EnemySpawnCounter;
-	public float LevelCounter;
-	public int num;
+    public enum GameMode
+    {
+        None,
+        Story,
+        Horde,
 
-	void Spawn() {
-		int prefab_num = Random.Range (0,9);
+    }
+    public GameMode c_mode = GameMode.None;
+    public List<GameObject> _enemy = new List<GameObject>(); 
+  
+    //time that dudes will spawn
+    [HideInInspector]
+	public float EnemySpawnCounter;
+     [HideInInspector]
+	public float LevelCounter;
+	 
+
+	void Spawn() 
+    {
+        Color c = Color.white;
+        int randColor = Random.Range(0, 5);
+        switch (randColor)
+        {
+            case 0:
+                c = Color.blue;
+                break;
+            case 1: 
+                c = Color.green;
+                break;
+            case 2: 
+                c = Color.red;
+                break;
+            case 3:
+                c = Color.yellow;
+                break; 
+            default:
+                c = Color.white;
+                break;
+         
+        }
+		int prefab_num = Random.Range (0,_enemy.Count);
 		Vector3 newPosition = new Vector3(Random.insideUnitSphere.x * 50, transform.position.y, Random.insideUnitSphere.z * 50);
-		Instantiate(Enemy[prefab_num], newPosition, transform.rotation);
+		GameObject e =  Instantiate(_enemy[prefab_num], newPosition, transform.rotation) as GameObject;
+        e.name = "Enemy[" + EnemySpawnCounter.ToString() +"]";
+        e.GetComponent<Renderer>().material.color = c;
 		--EnemySpawnCounter;
+
+
 	}
 	// Use this for initialization
-	void Start () {
-		LevelCounter = 1;
-		num = Random.Range (1, 10);
-		EnemySpawnCounter = LevelCounter * 5 * num;
-		StartCoroutine(countdown(EnemySpawnCounter));
-		Debug.Log (EnemySpawnCounter);
+	void Start () 
+    {
+        if (c_mode == GameMode.Story)
+        {
+            LevelCounter = 1;
+            int num = Random.Range(1, 10);
+            EnemySpawnCounter = LevelCounter * 5 * num;
+            StartCoroutine(countdown(EnemySpawnCounter));
+        }
+        else if (c_mode == GameMode.Horde)
+        {
+            StartCoroutine(countdown(9000));
+        }
 	}
 	// Update is called once per frame
-	void Update () {
+	void Update () 
+    {
 		int enemyCount = GameObject.FindGameObjectsWithTag ("Enemy").Length;
-		//Debug.Log (enemyCount);
-		Debug.Log (EnemySpawnCounter);
-		if (enemyCount <= 0 && EnemySpawnCounter <= 0)
-		{
-			Text.SetActive(true);
-			Portals.SetActive(true);
-		}
+ 
 	}
 
+    /// <summary>
+    /// while the timer is less than the limit set
+    /// spawn dudes every 5 seconds until the timer is done
+    /// </summary>
+    /// <param name="time"></param>
+    /// <returns></returns>
 	IEnumerator countdown(float time)
 	{
 		int i = 0;
-		while (i < time) {
+		while (i < time) 
+        {
 			Spawn();
 			yield return new WaitForSeconds(5.0f);
 			--time;
