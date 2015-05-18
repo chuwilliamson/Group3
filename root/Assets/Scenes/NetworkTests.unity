@@ -196,6 +196,18 @@ Prefab:
       propertyPath: target
       value: 
       objectReference: {fileID: 910046465}
+    - target: {fileID: 2085122, guid: 6ebc15d7ace22c346afd2dd20c0516f9, type: 2}
+      propertyPath: orthographic size
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 2085122, guid: 6ebc15d7ace22c346afd2dd20c0516f9, type: 2}
+      propertyPath: m_Depth
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2085122, guid: 6ebc15d7ace22c346afd2dd20c0516f9, type: 2}
+      propertyPath: orthographic
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6ebc15d7ace22c346afd2dd20c0516f9, type: 2}
   m_IsPrefabParent: 0
@@ -349,7 +361,7 @@ GameObject:
   - 4: {fileID: 1257837570}
   m_Layer: 0
   m_Name: Bucket
-  m_TagString: Untagged
+  m_TagString: Bucket
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -7,8 +7,10 @@ public class LevelTransition : MonoBehaviour
     {
         Application.LoadLevel("NetworkTests");
     }
-    public void Main()
+    
+     public void MainM()
     {
         Application.LoadLevel("MainMenu");
     }
+      
 }
