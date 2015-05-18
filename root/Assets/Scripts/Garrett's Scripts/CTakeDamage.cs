@@ -1,20 +1,18 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class CTakeDamage : MonoBehaviour {
+public class CTakeDamage : MonoBehaviour
+{
 
     public float health;
-    public Animator anim;
-    void Awake()
-    {
-       // print("stuff");
-    }
 
-   
     //character controllers only respond to collisions if they are moving
+    //OnCollisionEnter is called when this collider/rigidbody has begun touching another rigidbody/collider.
     void OnCollisionEnter(Collision a_col)
     {
-        if(this.CompareTag("Projectile") && a_col.gameObject.tag == "Enemy")
+        Vector3 hitForce = (a_col.transform.position - this.transform.position).normalized; //direction of force
+
+        if (this.CompareTag("Projectile") && a_col.gameObject.tag == "Enemy")
         {
             //if this is a projectile, destroy on impact
             health = -1;
@@ -25,27 +23,67 @@ public class CTakeDamage : MonoBehaviour {
             health -= a_col.transform.gameObject.GetComponent<CProjectile>().damage;
         }
 
-        if (this.gameObject.tag == "Player")
+
+        if (this.CompareTag("Player"))
         {
-            if(a_col.transform.gameObject.tag == "Enemy")
+            if (this.CompareTag("Enemy"))
+            {
+                print("player touched enemy");
+            }
+        }
+
+        if (this.CompareTag("Enemy"))
+        {
+            if (this.CompareTag("Player"))
             {
                 health -= a_col.gameObject.GetComponent<CEnemy>().attackDamage;
-                anim.SetTrigger("TakeDamage"); 
+                print("enemy touched player");
             }
-        }        
+        }
+
+
     }
- 
-	
-	// Update is called once per frame
-	void Update () {
+
+
+
+
+    void OnCollisionStay(Collision col)
+    {
+        //if this is the player colliding with an enemy
+        if (this.CompareTag("Player"))
+        {
+            if (col.gameObject.CompareTag("Enemy"))
+            {
+
+            }
+        }
+
+        //if this is the enemy colliding with a player
+        if (this.CompareTag("Enemy"))
+        {
+            if (col.gameObject.CompareTag("Player"))
+            {
+                print(gameObject.name + " collided with " + col.gameObject.name);
+                col.gameObject.GetComponent<CTakeDamage>().health -= this.gameObject.GetComponent<CEnemy>().attackDamage;
+                GameObject.FindGameObjectWithTag("Player").GetComponent<Animator>().SetTrigger("TakeDamage");
+            }
+        }
+
+    }
+
+
+    // Update is called once per frame
+    void FixedUpdate()
+    {
 
         if (health < 0)
         {
-            if (this.gameObject.tag == "Player")
-            {
-                anim.SetTrigger("ded");
+            if (CompareTag("Player"))
+            {                
+                GetComponent<Animator>().SetTrigger("ded");
+                print("set ded");
             }
-            Destroy(this.gameObject);
+            // Destroy(this.gameObject);
         }
-	}
+    }
 }

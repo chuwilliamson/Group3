@@ -6,13 +6,22 @@ public class PlayerAnimations : MonoBehaviour {
     {
         print("anim on awake");
     }
-    private void ControllerColliderHit(Collision o)
+    private void OnControllerColliderHit(ControllerColliderHit hit)
     {
-        print(o.transform.gameObject.tag);
-        if(o.transform.gameObject.tag == "Enemy")
+        Rigidbody body = hit.collider.attachedRigidbody;
+ 
+        if(hit.gameObject.tag == "Enemy")
         {
-            print("touch an enemy");
+            //print("I touch an enemy");
         }
     }
+
+    private void OnCollisionEnter(Collision col)
+    {
+
+        if (col.gameObject.tag == "Enemy") { }
+            //print("enemy touched me");
+    }
+ 
 
 }
