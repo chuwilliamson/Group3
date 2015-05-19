@@ -4,27 +4,26 @@ using System.Collections;
 [RequireComponent(typeof(NavMeshAgent))]
 public class CMoveToTarget : MonoBehaviour 
 {
-<<<<<<< HEAD
+    public Animator anim;
+    public GameObject player;
     public GameObject p;
     void Awake()
     {
-        p = GameObject.FindGameObjectWithTag("Player");
+        player = GameObject.FindGameObjectWithTag("Player");
+        anim = transform.GetChild(0).gameObject.GetComponent<Animator>();
     }
     void Update()
     {
         //Vector3 playerPos = GameObject.FindGameObjectWithTag("Player").transform.position;
-        GetComponent<NavMeshAgent>().destination = p.transform.position;
-=======
-    public Animator anim;
-    public GameObject player;
+    }
+
+    
  
     void FixedUpdate()
     {
 
         print("agentbehavior");
         NavMeshAgent nma = GetComponent<NavMeshAgent>();
-
-        player = GameObject.FindGameObjectWithTag("Player");
         nma.SetDestination(player.transform.position);
 
         if (nma.velocity.magnitude > 1)
@@ -39,7 +38,7 @@ public class CMoveToTarget : MonoBehaviour
         {
             //anim.SetTrigger("attack");           
         }
->>>>>>> chuwilliamson/master
+
     }
 
     
