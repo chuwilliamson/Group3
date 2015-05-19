@@ -42,7 +42,7 @@ public class CPlayerWeapon : CWeapon {
         if(Input.GetKey(KeyCode.Mouse0))
         {
             anim.SetTrigger("DoubleFireBall");
-
+			AudioManager.instance.PlaySound("PlayerAttack");
         }
 
         if(type != "Starting Weapon")

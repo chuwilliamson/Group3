@@ -20,18 +20,22 @@ public class AudioManager : Singleton<AudioManager>
 			soundDict.Add(a.name, a);
 		}
 		aSource = GetComponent<AudioSource> ();
+		//AudioManager.instance.PlaySound("ambient1");
 	}
 
 
 	public void PlaySound(string sound)
 	{
 
-		if (soundDict.ContainsKey (sound)) {
+		if (soundDict.ContainsKey (sound)) 
+		{
 			Debug.Log ("playing that sound " + sound);
 			aSource.clip = soundDict [sound];
 			aSource.Play ();
 
-		} else {
+		} 
+		else 
+		{
 			print ("couldn't find the sound");
 		}
 	}
