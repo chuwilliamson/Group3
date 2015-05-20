@@ -3,7 +3,7 @@ using System.Collections;
 
 public class NetworkManager : MonoBehaviour {
 	
-	private const string typeName = "BattleBots";
+	private const string typeName = "Scorch";
 	private const string gameName = "GameRoom";
 
 	public GameObject playerPrefab;
@@ -19,7 +19,7 @@ public class NetworkManager : MonoBehaviour {
 	{
 		Network.InitializeServer (2, 2500, !Network.HavePublicAddress ());
 		MasterServer.RegisterHost (typeName, gameName);
-		//Application.LoadLevel("BotScene1");
+		//Application.LoadLevel("NetworkTest");
 		
 	}
 	
