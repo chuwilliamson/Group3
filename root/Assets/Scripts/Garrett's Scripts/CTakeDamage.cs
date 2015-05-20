@@ -22,7 +22,8 @@ public class CTakeDamage : MonoBehaviour
         {
             health -= a_col.transform.gameObject.GetComponent<CProjectile>().damage;
         }
-	
+
+
         if (this.CompareTag("Player"))
         {
             if (this.CompareTag("Enemy"))
@@ -42,6 +43,9 @@ public class CTakeDamage : MonoBehaviour
 
 
     }
+
+
+
 
     void OnCollisionStay(Collision col)
     {
