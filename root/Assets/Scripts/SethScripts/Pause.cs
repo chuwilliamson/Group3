@@ -4,10 +4,13 @@ using System.Collections;
 public class Pause : MonoBehaviour
 {
     public bool paused;
+    public float savedTimeScale;
+
     void Update()
     {
-     // OnApplicationPause(true);
-      //return;
+        if (Input.GetKeyDown(KeyCode.Escape))
+        paused = togglePause();
+       
     }
 
     void OnGUI()
@@ -21,7 +24,7 @@ public class Pause : MonoBehaviour
 
                 GUILayout.Label("Game is paused.");
                 if (GUILayout.Button("Unpause"))
-                    OnApplicationPause(true);
+                    paused = togglePause();
                 if (GUILayout.Button("Quit."))
                     Application.Quit();
             }
@@ -30,10 +33,17 @@ public class Pause : MonoBehaviour
 
     }
 
-    void OnApplicationPause(bool pauseStatus)
+    bool togglePause()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
-        paused = pauseStatus;
-        return;
+        if (Time.timeScale == 0f)
+        {
+            Time.timeScale = 1f;
+            return (false);
+        }
+        else
+        {
+            Time.timeScale = 0f;
+            return (true);
+        }
     }
 }
