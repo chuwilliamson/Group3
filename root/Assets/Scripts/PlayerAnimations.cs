@@ -4,7 +4,6 @@ using System.Collections;
 public class PlayerAnimations : MonoBehaviour {
     private void Awake()
     {
-        print("anim on awake");
     }
     private void OnControllerColliderHit(ControllerColliderHit hit)
     {
