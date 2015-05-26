@@ -13,7 +13,13 @@ public class test : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void Update () 
+	{
+		if (Input.GetKeyDown (KeyCode.Alpha5)) 
+		{
+			AudioManager.instance.PlaySound("ambient0");
+		}
+
         if(Input.GetKeyDown(KeyCode.Alpha1))
         {
             _anim.SetTrigger("TakeDamage");
