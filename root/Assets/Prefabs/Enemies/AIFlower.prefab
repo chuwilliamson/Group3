@@ -1588,7 +1588,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 100
-  anim: {fileID: 0}
 --- !u!114 &11475446
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1617,6 +1616,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55c78a029fcfe33448212c78a9c6b44a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  anim: {fileID: 0}
+  player: {fileID: 165750, guid: f31bbc57bb5969a45bfaa32409c38c98, type: 2}
 --- !u!137 &13760130
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1

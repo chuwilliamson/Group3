@@ -17,7 +17,7 @@ public class EnemyManager : MonoBehaviour {
     //time that dudes will spawn
     [HideInInspector]
 	public float EnemySpawnCounter;
-     [HideInInspector]
+    [HideInInspector]
 	public float LevelCounter;
 	 
 

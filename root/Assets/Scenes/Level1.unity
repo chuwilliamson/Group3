@@ -326,7 +326,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 429046, guid: 0e043ae885766ce4d9e62b29299b5eee, type: 2}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 429046, guid: 0e043ae885766ce4d9e62b29299b5eee, type: 2}
       propertyPath: m_LocalRotation.z
@@ -334,7 +334,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 429046, guid: 0e043ae885766ce4d9e62b29299b5eee, type: 2}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: -1.62920685e-07
       objectReference: {fileID: 0}
     - target: {fileID: 429046, guid: 0e043ae885766ce4d9e62b29299b5eee, type: 2}
       propertyPath: m_RootOrder
@@ -348,6 +348,18 @@ Prefab:
       propertyPath: anim
       value: 
       objectReference: {fileID: 1045840779}
+    - target: {fileID: 13743038, guid: 0e043ae885766ce4d9e62b29299b5eee, type: 2}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 4300000, guid: 629ff57b4ceac8c4f991e00594d00893, type: 3}
+    - target: {fileID: 446162, guid: 0e043ae885766ce4d9e62b29299b5eee, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 446162, guid: 0e043ae885766ce4d9e62b29299b5eee, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: -1.62920685e-07
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0e043ae885766ce4d9e62b29299b5eee, type: 2}
   m_IsPrefabParent: 0
@@ -1814,7 +1826,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 101fc4162e06ebd4294ef46dd5fe3abc, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: .150000006
+  m_Volume: .0500000007
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -1932,6 +1944,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 11490470, guid: f31bbc57bb5969a45bfaa32409c38c98, type: 2}
+      propertyPath: projectile
+      value: 
+      objectReference: {fileID: 163032, guid: 9e66d33ac2a54b94ca95f85959aebae3, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f31bbc57bb5969a45bfaa32409c38c98, type: 2}
   m_IsPrefabParent: 0
@@ -2149,7 +2165,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: .5
+  m_Volume: .300000012
   m_Pitch: 1
   Loop: 0
   Mute: 0

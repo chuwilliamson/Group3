@@ -64,10 +64,7 @@ public class CTakeDamage : MonoBehaviour
                 GameObject.FindGameObjectWithTag("Player").GetComponent<Animator>().SetTrigger("TakeDamage");
             }
         }
-
     }
-
-
     // Update is called once per frame
     void FixedUpdate()
     {
@@ -79,7 +76,8 @@ public class CTakeDamage : MonoBehaviour
                 GetComponent<Animator>().SetTrigger("ded");
                 print("set ded");
             }
-            // Destroy(this.gameObject);
+             Destroy(this.gameObject);
+			AudioManager.instance.PlaySound("EnemyDeath");
         }
     }
 }
