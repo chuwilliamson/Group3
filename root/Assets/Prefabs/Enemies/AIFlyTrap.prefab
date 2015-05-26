@@ -302,6 +302,8 @@ GameObject:
   - 114: {fileID: 11448186}
   - 54: {fileID: 5451492}
   - 65: {fileID: 6512262}
+  - 33: {fileID: 3313482}
+  - 23: {fileID: 2335594}
   m_Layer: 0
   m_Name: AIFlyTrap
   m_TagString: Enemy
@@ -1240,6 +1242,37 @@ Transform:
   - {fileID: 478028}
   m_Father: {fileID: 402186}
   m_RootOrder: 0
+--- !u!23 &2335594
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 141350}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: cd593cb87f9d9104289c43921171b2fb, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_ImportantGI: 0
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &3313482
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 141350}
+  m_Mesh: {fileID: 4300000, guid: 629ff57b4ceac8c4f991e00594d00893, type: 3}
 --- !u!54 &5451492
 Rigidbody:
   m_ObjectHideFlags: 1
@@ -1275,8 +1308,8 @@ Animator:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 124264}
   m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: ae7bf6e882f5d3145ad694a75174a450, type: 3}
-  m_Controller: {fileID: 0}
+  m_Avatar: {fileID: 9000000, guid: 629ff57b4ceac8c4f991e00594d00893, type: 3}
+  m_Controller: {fileID: 9100000, guid: 2351b18ea4794944e9b52d6ec2f50d1e, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1296,7 +1329,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 100
-  anim: {fileID: 0}
 --- !u!114 &11448186
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1308,6 +1340,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55c78a029fcfe33448212c78a9c6b44a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  anim: {fileID: 0}
+  player: {fileID: 0}
+  p: {fileID: 0}
 --- !u!114 &11470110
 MonoBehaviour:
   m_ObjectHideFlags: 1
