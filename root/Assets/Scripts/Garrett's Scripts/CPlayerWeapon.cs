@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 
@@ -11,7 +11,6 @@ public class CPlayerWeapon : CWeapon {
     private string startingType;
     private GameObject startingProjectile;
     private GameObject startingBucket;
-
     public void WeaponPickup(CWeapon weapon)
     {
         rof = weapon.rof;
@@ -42,7 +41,8 @@ public class CPlayerWeapon : CWeapon {
 
         if(Input.GetKey(KeyCode.Mouse0))
         {
-            GameObject.FindGameObjectWithTag("Player").GetComponent<Animator>().SetTrigger("DoubleFireBall");
+            anim.SetTrigger("DoubleFireBall");
+			AudioManager.instance.PlaySound("PlayerAttack");
         }
 
         if(type != "Starting Weapon")
