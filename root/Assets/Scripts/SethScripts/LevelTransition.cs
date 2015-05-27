@@ -12,5 +12,10 @@ public class LevelTransition : MonoBehaviour
     {
         Application.LoadLevel("MainMenu");
     }
+
+     public void Quit()
+     {
+         Application.Quit();
+     }
       
 }
