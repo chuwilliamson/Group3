@@ -77,7 +77,7 @@ public class CTakeDamage : MonoBehaviour
                 print("set ded");
             }
              Destroy(this.gameObject);
-			AudioManager.instance.PlaySound("EnemyDeath");
+			 //AudioManager.instance.PlaySound("EnemyDeath");
         }
     }
 }
