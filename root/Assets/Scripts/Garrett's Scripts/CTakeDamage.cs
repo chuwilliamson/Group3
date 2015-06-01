@@ -79,7 +79,7 @@ public class CTakeDamage : MonoBehaviour
                 GetComponent<Animator>().SetTrigger("ded");
                 print("set ded");
             }
-            // Destroy(this.gameObject);
+             Destroy(this.gameObject);
         }
     }
 }
