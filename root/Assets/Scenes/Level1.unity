@@ -2237,7 +2237,12 @@ MonoBehaviour:
   _sounds:
   - {fileID: 8300000, guid: 101fc4162e06ebd4294ef46dd5fe3abc, type: 3}
   - {fileID: 8300000, guid: 80648c78282b97f47a19490ec49bf1ec, type: 3}
+  - {fileID: 8300000, guid: fffd20e9f28c0454a8c815ddf048e82d, type: 3}
+  - {fileID: 8300000, guid: 45e74223cc22bcd449af0a17d4cd9c27, type: 3}
+  - {fileID: 8300000, guid: 028b86ba3e9131147847cd780d68446b, type: 3}
   - {fileID: 8300000, guid: 936f2d0ff90637649b518ae463eba513, type: 3}
+  - {fileID: 8300000, guid: a06da7998234f5c4aafee959577fefa2, type: 3}
+  - {fileID: 8300000, guid: af814b94eb20fb044b0cee8bbb4e1b4b, type: 3}
 --- !u!4 &1852104077
 Transform:
   m_ObjectHideFlags: 0
