@@ -39,8 +39,6 @@ public class CTakeDamage : MonoBehaviour
                 print("enemy touched player");
             }
         }
-
-
     }
 
     void OnCollisionStay(Collision col)
@@ -60,8 +58,9 @@ public class CTakeDamage : MonoBehaviour
             if (col.gameObject.CompareTag("Player"))
             {
                 print(gameObject.name + " collided with " + col.gameObject.name);
+				//AudioManager.instance.PlaySound("EnemyAttack");
                 col.gameObject.GetComponent<CTakeDamage>().health -= this.gameObject.GetComponent<CEnemy>().attackDamage;
-                GameObject.FindGameObjectWithTag("Player").GetComponent<Animator>().SetTrigger("TakeDamage");
+				GameObject.FindGameObjectWithTag("Player").GetComponent<Animator>().SetTrigger("TakeDamage");
             }
         }
     }
