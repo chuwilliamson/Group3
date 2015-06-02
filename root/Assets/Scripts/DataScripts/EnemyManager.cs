@@ -49,7 +49,7 @@ public class EnemyManager : MonoBehaviour {
 		GameObject e =  Instantiate(_enemy[prefab_num], transform.position, transform.rotation) as GameObject;
         e.name = "Enemy[" + EnemySpawnCounter.ToString() +"]";
         e.GetComponent<Renderer>().material.color = c;
-		--EnemySpawnCounter;
+		++EnemySpawnCounter;
 
 
 	}

@@ -5,12 +5,17 @@ public class LevelTransition : MonoBehaviour
 {
     public void Retry()
     {
-        Application.LoadLevel("NetworkTests");
+        Application.LoadLevel("Combat");
     }
     
      public void MainM()
     {
         Application.LoadLevel("MainMenu");
     }
+
+     public void Quit()
+     {
+         Application.Quit();
+     }
       
 }
