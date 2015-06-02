@@ -46,7 +46,6 @@ GameObject:
   - 54: {fileID: 5462632}
   - 65: {fileID: 6564322}
   - 23: {fileID: 2307570}
-  - 114: {fileID: 11411844}
   m_Layer: 0
   m_Name: AIFlower
   m_TagString: Enemy
@@ -1590,20 +1589,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &11411844
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 106712}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5450ce07188a40642bbf0a50ad1e8ac0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 0}
-  attackTimer: 0
-  coolDown: 0
 --- !u!114 &11421492
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1658,7 +1643,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51ce798a2273260498bf241cf3a5b6fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxHealth: 100
   health: 100
+  healthBarLength: 0
 --- !u!137 &13791112
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
