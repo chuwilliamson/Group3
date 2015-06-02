@@ -1466,7 +1466,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 100
-  anim: {fileID: 9561242}
+  scoreValue: 10
 --- !u!136 &13648680
 CapsuleCollider:
   m_ObjectHideFlags: 1
