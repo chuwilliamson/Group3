@@ -8,11 +8,11 @@ public class CTakeDamage : MonoBehaviour
     public float health;
     public Slider healthBar;
 
-    public float healthBarLength;
+   // public float healthBarLength;
 
     void Start()
     {
-        healthBarLength = Screen.width / 2;
+       // healthBarLength = Screen.width / 2;
     }
 
     //character controllers only respond to collisions if they are moving
@@ -78,16 +78,18 @@ public class CTakeDamage : MonoBehaviour
        void FixedUpdate()
      {
         adjustCurrentHealth(0);
-         if (health < 0)
-         {
-             if (CompareTag("Player"))
-             {                
-                 GetComponent<Animator>().SetTrigger("ded");
-                 print("set ded");
-             }
+         if (health < 0) {
+			if (CompareTag ("Player")) {                
+				GetComponent<Animator> ().SetTrigger ("ded");
+				print ("set ded");
+			}
             
-              Destroy(this.gameObject);
-         }
+			Destroy (this.gameObject);
+			if (CompareTag ("Enemy")) 
+			{
+				++FlowersKilled.FlowersBurned;
+			}
+		}
      }
 
          // HealthBar - Seth
