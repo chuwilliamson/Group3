@@ -1,10 +1,19 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
 public class CTakeDamage : MonoBehaviour
 {
-
+    public float maxHealth = 100;
     public float health;
+    public Slider healthBar;
+
+    public float healthBarLength;
+
+    void Start()
+    {
+        healthBarLength = Screen.width / 2;
+    }
 
     //character controllers only respond to collisions if they are moving
     //OnCollisionEnter is called when this collider/rigidbody has begun touching another rigidbody/collider.
@@ -22,7 +31,7 @@ public class CTakeDamage : MonoBehaviour
         {
             health -= a_col.transform.gameObject.GetComponent<CProjectile>().damage;
         }
-	
+
         if (this.CompareTag("Player"))
         {
             if (this.CompareTag("Enemy"))
@@ -37,6 +46,7 @@ public class CTakeDamage : MonoBehaviour
             {
                 health -= a_col.gameObject.GetComponent<CEnemy>().attackDamage;
                 print("enemy touched player");
+
             }
         }
     }
@@ -58,25 +68,48 @@ public class CTakeDamage : MonoBehaviour
             if (col.gameObject.CompareTag("Player"))
             {
                 print(gameObject.name + " collided with " + col.gameObject.name);
-				//AudioManager.instance.PlaySound("EnemyAttack");
                 col.gameObject.GetComponent<CTakeDamage>().health -= this.gameObject.GetComponent<CEnemy>().attackDamage;
-				GameObject.FindGameObjectWithTag("Player").GetComponent<Animator>().SetTrigger("TakeDamage");
+                GameObject.FindGameObjectWithTag("Player").GetComponent<Animator>().SetTrigger("TakeDamage");
             }
         }
     }
-    // Update is called once per frame
-    void FixedUpdate()
-    {
 
-        if (health < 0)
-        {
-            if (CompareTag("Player"))
-            {                
-                GetComponent<Animator>().SetTrigger("ded");
-                print("set ded");
-            }
-             Destroy(this.gameObject);
-			 //AudioManager.instance.PlaySound("EnemyDeath");
-        }
-    }
+    // Update is called once per frame
+       void FixedUpdate()
+     {
+        adjustCurrentHealth(0);
+         if (health < 0)
+         {
+             if (CompareTag("Player"))
+             {                
+                 GetComponent<Animator>().SetTrigger("ded");
+                 print("set ded");
+             }
+            
+              Destroy(this.gameObject);
+         }
+     }
+
+         // HealthBar - Seth
+          public void adjustCurrentHealth(int adjustment)
+          {
+              if (this.CompareTag("Player"))
+              {
+                  health += adjustment;
+                  if (health < 0)
+                  {
+                      health = 0;
+                      Application.LoadLevel("GameOver");
+                  }
+                  if(health > maxHealth)
+                      health = maxHealth;
+                  if(maxHealth < 1)
+                      maxHealth = 1;
+                  healthBar.value = health;
+                  health -= gameObject.GetComponent<CEnemy>().attackDamage;
+              }
+              
+          }
+       ////////////////
 }
+     

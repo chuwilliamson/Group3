@@ -45,8 +45,8 @@ public class EnemyManager : MonoBehaviour {
          
         }
 		int prefab_num = Random.Range (0,_enemy.Count);
-		//Vector3 newPosition = new Vector3(Random.insideUnitSphere.x * 50, transform.position.y, Random.insideUnitSphere.z * 50);
-		GameObject e =  Instantiate(_enemy[prefab_num], transform.position, transform.rotation) as GameObject;
+		Vector3 newPosition = new Vector3(Random.insideUnitSphere.x * 50, transform.position.y, Random.insideUnitSphere.z * 50);
+		GameObject e =  Instantiate(_enemy[prefab_num], newPosition, transform.rotation) as GameObject;
         e.name = "Enemy[" + EnemySpawnCounter.ToString() +"]";
         e.GetComponent<Renderer>().material.color = c;
 		++EnemySpawnCounter;
