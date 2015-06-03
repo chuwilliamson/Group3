@@ -1,10 +1,12 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
 public class CTakeDamage : MonoBehaviour
 {
     public float maxHealth = 100;
     public float health;
+    public Slider healthBar;
 
     public float healthBarLength;
 
@@ -75,7 +77,7 @@ public class CTakeDamage : MonoBehaviour
     // Update is called once per frame
        void FixedUpdate()
      {
-         adjustCurrentHealth(0);
+        adjustCurrentHealth(0);
          if (health < 0)
          {
              if (CompareTag("Player"))
@@ -88,33 +90,26 @@ public class CTakeDamage : MonoBehaviour
          }
      }
 
-       // HealthBar - Seth
-       void OnGUI()
-       {
-           if (this.CompareTag("Player"))
-           {
- 
-               GUI.Box(new Rect(10, 10, healthBarLength, 20), health + "/" + maxHealth);
-           }
-       }
-       public void adjustCurrentHealth(int adjustment)
-       {
-           if (this.CompareTag("Player"))
-           {
-
-               health += adjustment;
-               if (health < 0)
-               {
-                   health = 0;
-                   Application.LoadLevel("GameOver");
-               }
-               if (health > maxHealth)
-                   health = maxHealth;
-               if (maxHealth < 1)
-                   maxHealth = 1;
-               healthBarLength = (Screen.width / 2) * (health / (float)maxHealth);
-           }
-       }
-    ////////////////
- }
+         // HealthBar - Seth
+          public void adjustCurrentHealth(int adjustment)
+          {
+              if (this.CompareTag("Player"))
+              {
+                  health += adjustment;
+                  if (health < 0)
+                  {
+                      health = 0;
+                      Application.LoadLevel("GameOver");
+                  }
+                  if(health > maxHealth)
+                      health = maxHealth;
+                  if(maxHealth < 1)
+                      maxHealth = 1;
+                  healthBar.value = health;
+                  health -= gameObject.GetComponent<CEnemy>().attackDamage;
+              }
+              
+          }
+       ////////////////
+}
      
