@@ -17,7 +17,7 @@ public class EnemyManager : MonoBehaviour {
     //time that dudes will spawn
     [HideInInspector]
 	public float EnemySpawnCounter;
-     [HideInInspector]
+    [HideInInspector]
 	public float LevelCounter;
 	 
 
@@ -50,7 +50,7 @@ public class EnemyManager : MonoBehaviour {
         e.name = "Enemy[" + EnemySpawnCounter.ToString() +"]";
         e.GetComponent<Renderer>().material.color = c;
 		++EnemySpawnCounter;
-
+		++ZombieCount.ZombieCounter;
 
 	}
 	// Use this for initialization

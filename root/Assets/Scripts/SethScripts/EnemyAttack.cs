@@ -39,6 +39,7 @@ public class EnemyAttack : MonoBehaviour {
 		if (distance < 2f) {
 			
 			if(direction > 0) {
+				AudioManager.instance.PlaySound("EnemyAttack");
 				PlayerHealth eh = (PlayerHealth)target.GetComponent ("PlayerHealth");
 				eh.adjustCurrentHealth (-10);
 			}
