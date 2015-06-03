@@ -16,6 +16,6 @@ public class ZombieCount : MonoBehaviour {
 
 	void Update()
 	{
-		text.text = "Zombie Count: " + ZombieCounter;
+		text.text = "Flower Count: " + ZombieCounter;
 	}
 }
