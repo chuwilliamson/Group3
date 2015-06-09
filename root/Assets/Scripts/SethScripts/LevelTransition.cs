@@ -5,7 +5,7 @@ public class LevelTransition : MonoBehaviour
 {
     public void Retry()
     {
-        Application.LoadLevel("Combat");
+        Application.LoadLevel("Level1");
     }
     
      public void MainM()
