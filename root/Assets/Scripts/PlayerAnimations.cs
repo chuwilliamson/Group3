@@ -22,6 +22,14 @@ public class PlayerAnimations : MonoBehaviour {
         if (col.gameObject.tag == "Enemy") { }
             //print("enemy touched me");
     }
- 
+ private void Update()
+	{
+		if(Input.GetKey(KeyCode.Mouse0))
+		{
+			anim.SetTrigger("SingleShot");
+		}	
+	}
+
+	public Animator anim;
 
 }

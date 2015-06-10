@@ -99,10 +99,11 @@ ModelImporter:
     400092: TopHead
     4300000: pCylinder1
     7400000: Idle
-    7400002: SingleArm
-    7400004: DblArm
-    7400006: TakeDamage
-    7400008: Death
+    7400002: Idle2
+    7400004: Fireball
+    7400006: TwoHandFireball
+    7400008: GetHitBit
+    7400010: Death
     9500000: //RootNode
     13700000: pCylinder1
   materials:
@@ -125,7 +126,7 @@ ModelImporter:
       name: Idle
       takeName: Take 001
       firstFrame: 1
-      lastFrame: 170
+      lastFrame: 70
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -242,10 +243,10 @@ ModelImporter:
       maskType: 0
       maskSource: {instanceID: 0}
     - serializedVersion: 16
-      name: SingleArm
+      name: Idle2
       takeName: Take 001
-      firstFrame: 173
-      lastFrame: 252
+      firstFrame: 80
+      lastFrame: 170
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -362,10 +363,10 @@ ModelImporter:
       maskType: 0
       maskSource: {instanceID: 0}
     - serializedVersion: 16
-      name: DblArm
+      name: Fireball
       takeName: Take 001
-      firstFrame: 253
-      lastFrame: 301
+      firstFrame: 180
+      lastFrame: 222
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -482,10 +483,10 @@ ModelImporter:
       maskType: 0
       maskSource: {instanceID: 0}
     - serializedVersion: 16
-      name: TakeDamage
+      name: TwoHandFireball
       takeName: Take 001
-      firstFrame: 310
-      lastFrame: 325
+      firstFrame: 252
+      lastFrame: 283
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -496,6 +497,126 @@ ModelImporter:
       loopBlendOrientation: 1
       loopBlendPositionY: 0
       loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: pCylinder1
+        weight: 0
+      - path: Root
+        weight: 1
+      - path: Root/L_Leg
+        weight: 1
+      - path: Root/L_Leg/L_Knee
+        weight: 1
+      - path: Root/L_Leg/L_Knee/L_Foot
+        weight: 1
+      - path: Root/R_Leg
+        weight: 1
+      - path: Root/R_Leg/R_Knee
+        weight: 1
+      - path: Root/R_Leg/R_Knee/R_Foot
+        weight: 1
+      - path: Root/Spine1
+        weight: 1
+      - path: Root/Spine1/Spine2
+        weight: 1
+      - path: Root/Spine1/Spine2/L_Clavecal
+        weight: 1
+      - path: Root/Spine1/Spine2/L_Clavecal/L_Arm
+        weight: 1
+      - path: Root/Spine1/Spine2/L_Clavecal/L_Arm/L_Elbow
+        weight: 1
+      - path: Root/Spine1/Spine2/L_Clavecal/L_Arm/L_Elbow/L_Wrist
+        weight: 1
+      - path: Root/Spine1/Spine2/L_Clavecal/L_Arm/L_Elbow/L_Wrist/L_Hand
+        weight: 1
+      - path: Root/Spine1/Spine2/L_Clavecal/L_Arm/L_Elbow/L_Wrist/L_Hand/L_Index1
+        weight: 1
+      - path: Root/Spine1/Spine2/L_Clavecal/L_Arm/L_Elbow/L_Wrist/L_Hand/L_Index1/L_Index2
+        weight: 1
+      - path: Root/Spine1/Spine2/L_Clavecal/L_Arm/L_Elbow/L_Wrist/L_Hand/L_Index1/L_Index2/L_Index3
+        weight: 1
+      - path: Root/Spine1/Spine2/L_Clavecal/L_Arm/L_Elbow/L_Wrist/L_Hand/L_Middle1
+        weight: 1
+      - path: Root/Spine1/Spine2/L_Clavecal/L_Arm/L_Elbow/L_Wrist/L_Hand/L_Middle1/L_Middle2
+        weight: 1
+      - path: Root/Spine1/Spine2/L_Clavecal/L_Arm/L_Elbow/L_Wrist/L_Hand/L_Middle1/L_Middle2/L_Middle3
+        weight: 1
+      - path: Root/Spine1/Spine2/L_Clavecal/L_Arm/L_Elbow/L_Wrist/L_Hand/L_Pinky1
+        weight: 1
+      - path: Root/Spine1/Spine2/L_Clavecal/L_Arm/L_Elbow/L_Wrist/L_Hand/L_Pinky1/L_Pinky2
+        weight: 1
+      - path: Root/Spine1/Spine2/L_Clavecal/L_Arm/L_Elbow/L_Wrist/L_Hand/L_Pinky1/L_Pinky2/L_Pinky3
+        weight: 1
+      - path: Root/Spine1/Spine2/L_Clavecal/L_Arm/L_Elbow/L_Wrist/L_Hand/L_Thumb1
+        weight: 1
+      - path: Root/Spine1/Spine2/L_Clavecal/L_Arm/L_Elbow/L_Wrist/L_Hand/L_Thumb1/L_Thumb2
+        weight: 1
+      - path: Root/Spine1/Spine2/L_Clavecal/L_Arm/L_Elbow/L_Wrist/L_Hand/L_Thumb1/L_Thumb2/L_Thumb3
+        weight: 1
+      - path: Root/Spine1/Spine2/Neck
+        weight: 1
+      - path: Root/Spine1/Spine2/Neck/TopHead
+        weight: 1
+      - path: Root/Spine1/Spine2/R_Clavecal
+        weight: 1
+      - path: Root/Spine1/Spine2/R_Clavecal/R_Arm
+        weight: 1
+      - path: Root/Spine1/Spine2/R_Clavecal/R_Arm/R_Elbow
+        weight: 1
+      - path: Root/Spine1/Spine2/R_Clavecal/R_Arm/R_Elbow/R_Wrist
+        weight: 1
+      - path: Root/Spine1/Spine2/R_Clavecal/R_Arm/R_Elbow/R_Wrist/R_Hand
+        weight: 1
+      - path: Root/Spine1/Spine2/R_Clavecal/R_Arm/R_Elbow/R_Wrist/R_Hand/R_Index1
+        weight: 1
+      - path: Root/Spine1/Spine2/R_Clavecal/R_Arm/R_Elbow/R_Wrist/R_Hand/R_Index1/R_Index2
+        weight: 1
+      - path: Root/Spine1/Spine2/R_Clavecal/R_Arm/R_Elbow/R_Wrist/R_Hand/R_Index1/R_Index2/R_Index3
+        weight: 1
+      - path: Root/Spine1/Spine2/R_Clavecal/R_Arm/R_Elbow/R_Wrist/R_Hand/R_Middle1
+        weight: 1
+      - path: Root/Spine1/Spine2/R_Clavecal/R_Arm/R_Elbow/R_Wrist/R_Hand/R_Middle1/R_Middle2
+        weight: 1
+      - path: Root/Spine1/Spine2/R_Clavecal/R_Arm/R_Elbow/R_Wrist/R_Hand/R_Middle1/R_Middle2/R_Middle3
+        weight: 1
+      - path: Root/Spine1/Spine2/R_Clavecal/R_Arm/R_Elbow/R_Wrist/R_Hand/R_Pinky1
+        weight: 1
+      - path: Root/Spine1/Spine2/R_Clavecal/R_Arm/R_Elbow/R_Wrist/R_Hand/R_Pinky1/R_Pinky2
+        weight: 1
+      - path: Root/Spine1/Spine2/R_Clavecal/R_Arm/R_Elbow/R_Wrist/R_Hand/R_Pinky1/R_Pinky2/R_Pinky3
+        weight: 0
+      - path: Root/Spine1/Spine2/R_Clavecal/R_Arm/R_Elbow/R_Wrist/R_Hand/R_Thumb1
+        weight: 1
+      - path: Root/Spine1/Spine2/R_Clavecal/R_Arm/R_Elbow/R_Wrist/R_Hand/R_Thumb1/R_Thumb2
+        weight: 1
+      - path: Root/Spine1/Spine2/R_Clavecal/R_Arm/R_Elbow/R_Wrist/R_Hand/R_Thumb1/R_Thumb2/R_Thumb3
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: GetHitBit
+      takeName: Take 001
+      firstFrame: 311
+      lastFrame: 325
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
       keepOriginalOrientation: 0
       keepOriginalPositionY: 1
       keepOriginalPositionXZ: 0
@@ -605,7 +726,7 @@ ModelImporter:
       name: Death
       takeName: Take 001
       firstFrame: 330
-      lastFrame: 390
+      lastFrame: 388
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -614,7 +735,7 @@ ModelImporter:
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
-      loopBlendPositionY: 1
+      loopBlendPositionY: 0
       loopBlendPositionXZ: 0
       keepOriginalOrientation: 0
       keepOriginalPositionY: 1

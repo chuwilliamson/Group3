@@ -39,10 +39,7 @@ public class CPlayerWeapon : CWeapon {
 
         base.Update();
 
-        if(Input.GetKey(KeyCode.Mouse0))
-        {
-            anim.SetTrigger("DoubleFireBall");
-        }
+       
 
         if(type != "Starting Weapon")
         {
