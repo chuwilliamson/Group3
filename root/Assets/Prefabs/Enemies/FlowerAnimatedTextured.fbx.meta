@@ -1,0 +1,189 @@
+fileFormatVersion: 2
+guid: c9fdecfc348d6cf48aa6304e3cd0f570
+timeCreated: 1434043695
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: flower:group1
+    100002: flower:joint2
+    100004: flower:joint3
+    100006: flower:joint4
+    100008: flower:joint5
+    100010: flower:joint6
+    100012: flower:joint7
+    100014: flower:joint8
+    100016: flower:joint9
+    100018: flower:Plant_joint1
+    100020: flower:Plant_joint10
+    100022: flower:Plant_joint11
+    100024: flower:Plant_joint12
+    100026: flower:Plant_joint13
+    100028: flower:Plant_joint14
+    100030: flower:Plant_joint15
+    100032: flower:Plant_joint16
+    100034: flower:Plant_joint17
+    100036: flower:Plant_joint18
+    100038: flower:Plant_joint19
+    100040: flower:Plant_joint2
+    100042: flower:Plant_joint20
+    100044: flower:Plant_joint21
+    100046: flower:Plant_joint22
+    100048: flower:Plant_joint23
+    100050: flower:Plant_joint24
+    100052: flower:Plant_joint25
+    100054: flower:Plant_joint26
+    100056: flower:Plant_joint27
+    100058: flower:Plant_joint28
+    100060: flower:Plant_joint29
+    100062: flower:Plant_joint3
+    100064: flower:Plant_joint4
+    100066: flower:Plant_joint5
+    100068: flower:Plant_joint6
+    100070: flower:Plant_joint7
+    100072: flower:Plant_joint8
+    100074: flower:Plant_joint9
+    100076: flower:polySurface1
+    100078: flower:polySurface2
+    100080: flower:pPlane1
+    100082: flower:pPlane2
+    100084: flower:pPlane3
+    100086: flower:pPlane4
+    100088: flower:pSphere1
+    100090: flower:pSphere2
+    100092: flower:pSphere3
+    100094: flower:pSphere4
+    100096: flower:transform1
+    100098: flower:transform10
+    100100: flower:transform2
+    100102: flower:transform3
+    100104: flower:transform4
+    100106: flower:transform5
+    100108: flower:transform6
+    100110: flower:transform7
+    100112: flower:transform8
+    100114: flower:transform9
+    100116: //RootNode
+    100118: FlowerTexturedv2:Flower:RoadKillOut
+    400000: flower:group1
+    400002: flower:joint2
+    400004: flower:joint3
+    400006: flower:joint4
+    400008: flower:joint5
+    400010: flower:joint6
+    400012: flower:joint7
+    400014: flower:joint8
+    400016: flower:joint9
+    400018: flower:Plant_joint1
+    400020: flower:Plant_joint10
+    400022: flower:Plant_joint11
+    400024: flower:Plant_joint12
+    400026: flower:Plant_joint13
+    400028: flower:Plant_joint14
+    400030: flower:Plant_joint15
+    400032: flower:Plant_joint16
+    400034: flower:Plant_joint17
+    400036: flower:Plant_joint18
+    400038: flower:Plant_joint19
+    400040: flower:Plant_joint2
+    400042: flower:Plant_joint20
+    400044: flower:Plant_joint21
+    400046: flower:Plant_joint22
+    400048: flower:Plant_joint23
+    400050: flower:Plant_joint24
+    400052: flower:Plant_joint25
+    400054: flower:Plant_joint26
+    400056: flower:Plant_joint27
+    400058: flower:Plant_joint28
+    400060: flower:Plant_joint29
+    400062: flower:Plant_joint3
+    400064: flower:Plant_joint4
+    400066: flower:Plant_joint5
+    400068: flower:Plant_joint6
+    400070: flower:Plant_joint7
+    400072: flower:Plant_joint8
+    400074: flower:Plant_joint9
+    400076: flower:polySurface1
+    400078: flower:polySurface2
+    400080: flower:pPlane1
+    400082: flower:pPlane2
+    400084: flower:pPlane3
+    400086: flower:pPlane4
+    400088: flower:pSphere1
+    400090: flower:pSphere2
+    400092: flower:pSphere3
+    400094: flower:pSphere4
+    400096: flower:transform1
+    400098: flower:transform10
+    400100: flower:transform2
+    400102: flower:transform3
+    400104: flower:transform4
+    400106: flower:transform5
+    400108: flower:transform6
+    400110: flower:transform7
+    400112: flower:transform8
+    400114: flower:transform9
+    400116: //RootNode
+    400118: FlowerTexturedv2:Flower:RoadKillOut
+    4300000: FlowerTexturedv2:Flower:RoadKillOut
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: FlowerTexturedv2:Flower:RoadKillOut
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
