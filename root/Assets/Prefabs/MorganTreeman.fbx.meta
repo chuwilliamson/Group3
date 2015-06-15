@@ -176,7 +176,12 @@ ModelImporter:
     4300044: polySurface78
     4300046: polySurface89
     4300048: polySurface90
-    7400000: Take 001
+    7400000: Idle
+    7400002: Idle 2
+    7400004: Fireball
+    7400006: TwoHandedFireball
+    7400008: GitHitBit
+    7400010: Death
     9500000: //RootNode
     13700000: FlameSpriteLVL1ProxyIdle2:pCylinder1
     13700002: polySurface41
@@ -218,7 +223,1047 @@ ModelImporter:
     animationScaleError: .5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 70
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:pCylinder1
+        weight: 0
+      - path: FlameSpriteLVL1ProxyIdle2:Root
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:L_Leg
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:L_Leg/FlameSpriteLVL1ProxyIdle2:L_Knee
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:L_Leg/FlameSpriteLVL1ProxyIdle2:L_Knee/FlameSpriteLVL1ProxyIdle2:L_Foot
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:R_Leg
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:R_Leg/FlameSpriteLVL1ProxyIdle2:R_Knee
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:R_Leg/FlameSpriteLVL1ProxyIdle2:R_Knee/FlameSpriteLVL1ProxyIdle2:R_Foot
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow/FlameSpriteLVL1ProxyIdle2:L_Wrist
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow/FlameSpriteLVL1ProxyIdle2:L_Wrist/FlameSpriteLVL1ProxyIdle2:L_Hand
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow/FlameSpriteLVL1ProxyIdle2:L_Wrist/FlameSpriteLVL1ProxyIdle2:L_Hand/FlameSpriteLVL1ProxyIdle2:L_Index1
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow/FlameSpriteLVL1ProxyIdle2:L_Wrist/FlameSpriteLVL1ProxyIdle2:L_Hand/FlameSpriteLVL1ProxyIdle2:L_Index1/FlameSpriteLVL1ProxyIdle2:L_Index2
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow/FlameSpriteLVL1ProxyIdle2:L_Wrist/FlameSpriteLVL1ProxyIdle2:L_Hand/FlameSpriteLVL1ProxyIdle2:L_Index1/FlameSpriteLVL1ProxyIdle2:L_Index2/FlameSpriteLVL1ProxyIdle2:L_Index3
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow/FlameSpriteLVL1ProxyIdle2:L_Wrist/FlameSpriteLVL1ProxyIdle2:L_Hand/FlameSpriteLVL1ProxyIdle2:L_Middle1
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow/FlameSpriteLVL1ProxyIdle2:L_Wrist/FlameSpriteLVL1ProxyIdle2:L_Hand/FlameSpriteLVL1ProxyIdle2:L_Middle1/FlameSpriteLVL1ProxyIdle2:L_Middle2
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow/FlameSpriteLVL1ProxyIdle2:L_Wrist/FlameSpriteLVL1ProxyIdle2:L_Hand/FlameSpriteLVL1ProxyIdle2:L_Middle1/FlameSpriteLVL1ProxyIdle2:L_Middle2/FlameSpriteLVL1ProxyIdle2:L_Middle3
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow/FlameSpriteLVL1ProxyIdle2:L_Wrist/FlameSpriteLVL1ProxyIdle2:L_Hand/FlameSpriteLVL1ProxyIdle2:L_Pinky1
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow/FlameSpriteLVL1ProxyIdle2:L_Wrist/FlameSpriteLVL1ProxyIdle2:L_Hand/FlameSpriteLVL1ProxyIdle2:L_Pinky1/FlameSpriteLVL1ProxyIdle2:L_Pinky2
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow/FlameSpriteLVL1ProxyIdle2:L_Wrist/FlameSpriteLVL1ProxyIdle2:L_Hand/FlameSpriteLVL1ProxyIdle2:L_Pinky1/FlameSpriteLVL1ProxyIdle2:L_Pinky2/FlameSpriteLVL1ProxyIdle2:L_Pinky3
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow/FlameSpriteLVL1ProxyIdle2:L_Wrist/FlameSpriteLVL1ProxyIdle2:L_Hand/FlameSpriteLVL1ProxyIdle2:L_Thumb1
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow/FlameSpriteLVL1ProxyIdle2:L_Wrist/FlameSpriteLVL1ProxyIdle2:L_Hand/FlameSpriteLVL1ProxyIdle2:L_Thumb1/FlameSpriteLVL1ProxyIdle2:L_Thumb2
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow/FlameSpriteLVL1ProxyIdle2:L_Wrist/FlameSpriteLVL1ProxyIdle2:L_Hand/FlameSpriteLVL1ProxyIdle2:L_Thumb1/FlameSpriteLVL1ProxyIdle2:L_Thumb2/FlameSpriteLVL1ProxyIdle2:L_Thumb3
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:Neck
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:Neck/FlameSpriteLVL1ProxyIdle2:TopHead
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow/FlameSpriteLVL1ProxyIdle2:R_Wrist
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow/FlameSpriteLVL1ProxyIdle2:R_Wrist/FlameSpriteLVL1ProxyIdle2:R_Hand
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow/FlameSpriteLVL1ProxyIdle2:R_Wrist/FlameSpriteLVL1ProxyIdle2:R_Hand/FlameSpriteLVL1ProxyIdle2:R_Index1
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow/FlameSpriteLVL1ProxyIdle2:R_Wrist/FlameSpriteLVL1ProxyIdle2:R_Hand/FlameSpriteLVL1ProxyIdle2:R_Index1/FlameSpriteLVL1ProxyIdle2:R_Index2
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow/FlameSpriteLVL1ProxyIdle2:R_Wrist/FlameSpriteLVL1ProxyIdle2:R_Hand/FlameSpriteLVL1ProxyIdle2:R_Index1/FlameSpriteLVL1ProxyIdle2:R_Index2/FlameSpriteLVL1ProxyIdle2:R_Index3
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow/FlameSpriteLVL1ProxyIdle2:R_Wrist/FlameSpriteLVL1ProxyIdle2:R_Hand/FlameSpriteLVL1ProxyIdle2:R_Middle1
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow/FlameSpriteLVL1ProxyIdle2:R_Wrist/FlameSpriteLVL1ProxyIdle2:R_Hand/FlameSpriteLVL1ProxyIdle2:R_Middle1/FlameSpriteLVL1ProxyIdle2:R_Middle2
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow/FlameSpriteLVL1ProxyIdle2:R_Wrist/FlameSpriteLVL1ProxyIdle2:R_Hand/FlameSpriteLVL1ProxyIdle2:R_Middle1/FlameSpriteLVL1ProxyIdle2:R_Middle2/FlameSpriteLVL1ProxyIdle2:R_Middle3
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow/FlameSpriteLVL1ProxyIdle2:R_Wrist/FlameSpriteLVL1ProxyIdle2:R_Hand/FlameSpriteLVL1ProxyIdle2:R_Pinky1
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow/FlameSpriteLVL1ProxyIdle2:R_Wrist/FlameSpriteLVL1ProxyIdle2:R_Hand/FlameSpriteLVL1ProxyIdle2:R_Pinky1/FlameSpriteLVL1ProxyIdle2:R_Pinky2
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow/FlameSpriteLVL1ProxyIdle2:R_Wrist/FlameSpriteLVL1ProxyIdle2:R_Hand/FlameSpriteLVL1ProxyIdle2:R_Pinky1/FlameSpriteLVL1ProxyIdle2:R_Pinky2/FlameSpriteLVL1ProxyIdle2:R_Pinky3
+        weight: 0
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow/FlameSpriteLVL1ProxyIdle2:R_Wrist/FlameSpriteLVL1ProxyIdle2:R_Hand/FlameSpriteLVL1ProxyIdle2:R_Thumb1
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow/FlameSpriteLVL1ProxyIdle2:R_Wrist/FlameSpriteLVL1ProxyIdle2:R_Hand/FlameSpriteLVL1ProxyIdle2:R_Thumb1/FlameSpriteLVL1ProxyIdle2:R_Thumb2
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow/FlameSpriteLVL1ProxyIdle2:R_Wrist/FlameSpriteLVL1ProxyIdle2:R_Hand/FlameSpriteLVL1ProxyIdle2:R_Thumb1/FlameSpriteLVL1ProxyIdle2:R_Thumb2/FlameSpriteLVL1ProxyIdle2:R_Thumb3
+        weight: 1
+      - path: pCylinder8
+        weight: 0
+      - path: polySurface41
+        weight: 0
+      - path: polySurface57
+        weight: 0
+      - path: polySurface62
+        weight: 0
+      - path: polySurface63
+        weight: 0
+      - path: polySurface64
+        weight: 0
+      - path: polySurface66
+        weight: 0
+      - path: polySurface67
+        weight: 0
+      - path: polySurface68
+        weight: 0
+      - path: polySurface69
+        weight: 0
+      - path: polySurface70
+        weight: 0
+      - path: polySurface71
+        weight: 0
+      - path: polySurface73
+        weight: 0
+      - path: polySurface74
+        weight: 0
+      - path: polySurface75
+        weight: 0
+      - path: polySurface76
+        weight: 0
+      - path: polySurface77
+        weight: 0
+      - path: polySurface78
+        weight: 0
+      - path: polySurface84
+        weight: 0
+      - path: polySurface86
+        weight: 0
+      - path: polySurface87
+        weight: 0
+      - path: polySurface88
+        weight: 0
+      - path: polySurface89
+        weight: 0
+      - path: polySurface90
+        weight: 0
+      - path: polySurface91
+        weight: 0
+      - path: polySurface94
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Idle 2
+      takeName: Take 001
+      firstFrame: 80
+      lastFrame: 170
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:pCylinder1
+        weight: 0
+      - path: FlameSpriteLVL1ProxyIdle2:Root
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:L_Leg
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:L_Leg/FlameSpriteLVL1ProxyIdle2:L_Knee
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:L_Leg/FlameSpriteLVL1ProxyIdle2:L_Knee/FlameSpriteLVL1ProxyIdle2:L_Foot
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:R_Leg
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:R_Leg/FlameSpriteLVL1ProxyIdle2:R_Knee
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:R_Leg/FlameSpriteLVL1ProxyIdle2:R_Knee/FlameSpriteLVL1ProxyIdle2:R_Foot
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow/FlameSpriteLVL1ProxyIdle2:L_Wrist
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow/FlameSpriteLVL1ProxyIdle2:L_Wrist/FlameSpriteLVL1ProxyIdle2:L_Hand
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow/FlameSpriteLVL1ProxyIdle2:L_Wrist/FlameSpriteLVL1ProxyIdle2:L_Hand/FlameSpriteLVL1ProxyIdle2:L_Index1
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow/FlameSpriteLVL1ProxyIdle2:L_Wrist/FlameSpriteLVL1ProxyIdle2:L_Hand/FlameSpriteLVL1ProxyIdle2:L_Index1/FlameSpriteLVL1ProxyIdle2:L_Index2
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow/FlameSpriteLVL1ProxyIdle2:L_Wrist/FlameSpriteLVL1ProxyIdle2:L_Hand/FlameSpriteLVL1ProxyIdle2:L_Index1/FlameSpriteLVL1ProxyIdle2:L_Index2/FlameSpriteLVL1ProxyIdle2:L_Index3
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow/FlameSpriteLVL1ProxyIdle2:L_Wrist/FlameSpriteLVL1ProxyIdle2:L_Hand/FlameSpriteLVL1ProxyIdle2:L_Middle1
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow/FlameSpriteLVL1ProxyIdle2:L_Wrist/FlameSpriteLVL1ProxyIdle2:L_Hand/FlameSpriteLVL1ProxyIdle2:L_Middle1/FlameSpriteLVL1ProxyIdle2:L_Middle2
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow/FlameSpriteLVL1ProxyIdle2:L_Wrist/FlameSpriteLVL1ProxyIdle2:L_Hand/FlameSpriteLVL1ProxyIdle2:L_Middle1/FlameSpriteLVL1ProxyIdle2:L_Middle2/FlameSpriteLVL1ProxyIdle2:L_Middle3
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow/FlameSpriteLVL1ProxyIdle2:L_Wrist/FlameSpriteLVL1ProxyIdle2:L_Hand/FlameSpriteLVL1ProxyIdle2:L_Pinky1
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow/FlameSpriteLVL1ProxyIdle2:L_Wrist/FlameSpriteLVL1ProxyIdle2:L_Hand/FlameSpriteLVL1ProxyIdle2:L_Pinky1/FlameSpriteLVL1ProxyIdle2:L_Pinky2
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow/FlameSpriteLVL1ProxyIdle2:L_Wrist/FlameSpriteLVL1ProxyIdle2:L_Hand/FlameSpriteLVL1ProxyIdle2:L_Pinky1/FlameSpriteLVL1ProxyIdle2:L_Pinky2/FlameSpriteLVL1ProxyIdle2:L_Pinky3
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow/FlameSpriteLVL1ProxyIdle2:L_Wrist/FlameSpriteLVL1ProxyIdle2:L_Hand/FlameSpriteLVL1ProxyIdle2:L_Thumb1
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow/FlameSpriteLVL1ProxyIdle2:L_Wrist/FlameSpriteLVL1ProxyIdle2:L_Hand/FlameSpriteLVL1ProxyIdle2:L_Thumb1/FlameSpriteLVL1ProxyIdle2:L_Thumb2
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow/FlameSpriteLVL1ProxyIdle2:L_Wrist/FlameSpriteLVL1ProxyIdle2:L_Hand/FlameSpriteLVL1ProxyIdle2:L_Thumb1/FlameSpriteLVL1ProxyIdle2:L_Thumb2/FlameSpriteLVL1ProxyIdle2:L_Thumb3
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:Neck
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:Neck/FlameSpriteLVL1ProxyIdle2:TopHead
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow/FlameSpriteLVL1ProxyIdle2:R_Wrist
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow/FlameSpriteLVL1ProxyIdle2:R_Wrist/FlameSpriteLVL1ProxyIdle2:R_Hand
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow/FlameSpriteLVL1ProxyIdle2:R_Wrist/FlameSpriteLVL1ProxyIdle2:R_Hand/FlameSpriteLVL1ProxyIdle2:R_Index1
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow/FlameSpriteLVL1ProxyIdle2:R_Wrist/FlameSpriteLVL1ProxyIdle2:R_Hand/FlameSpriteLVL1ProxyIdle2:R_Index1/FlameSpriteLVL1ProxyIdle2:R_Index2
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow/FlameSpriteLVL1ProxyIdle2:R_Wrist/FlameSpriteLVL1ProxyIdle2:R_Hand/FlameSpriteLVL1ProxyIdle2:R_Index1/FlameSpriteLVL1ProxyIdle2:R_Index2/FlameSpriteLVL1ProxyIdle2:R_Index3
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow/FlameSpriteLVL1ProxyIdle2:R_Wrist/FlameSpriteLVL1ProxyIdle2:R_Hand/FlameSpriteLVL1ProxyIdle2:R_Middle1
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow/FlameSpriteLVL1ProxyIdle2:R_Wrist/FlameSpriteLVL1ProxyIdle2:R_Hand/FlameSpriteLVL1ProxyIdle2:R_Middle1/FlameSpriteLVL1ProxyIdle2:R_Middle2
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow/FlameSpriteLVL1ProxyIdle2:R_Wrist/FlameSpriteLVL1ProxyIdle2:R_Hand/FlameSpriteLVL1ProxyIdle2:R_Middle1/FlameSpriteLVL1ProxyIdle2:R_Middle2/FlameSpriteLVL1ProxyIdle2:R_Middle3
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow/FlameSpriteLVL1ProxyIdle2:R_Wrist/FlameSpriteLVL1ProxyIdle2:R_Hand/FlameSpriteLVL1ProxyIdle2:R_Pinky1
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow/FlameSpriteLVL1ProxyIdle2:R_Wrist/FlameSpriteLVL1ProxyIdle2:R_Hand/FlameSpriteLVL1ProxyIdle2:R_Pinky1/FlameSpriteLVL1ProxyIdle2:R_Pinky2
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow/FlameSpriteLVL1ProxyIdle2:R_Wrist/FlameSpriteLVL1ProxyIdle2:R_Hand/FlameSpriteLVL1ProxyIdle2:R_Pinky1/FlameSpriteLVL1ProxyIdle2:R_Pinky2/FlameSpriteLVL1ProxyIdle2:R_Pinky3
+        weight: 0
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow/FlameSpriteLVL1ProxyIdle2:R_Wrist/FlameSpriteLVL1ProxyIdle2:R_Hand/FlameSpriteLVL1ProxyIdle2:R_Thumb1
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow/FlameSpriteLVL1ProxyIdle2:R_Wrist/FlameSpriteLVL1ProxyIdle2:R_Hand/FlameSpriteLVL1ProxyIdle2:R_Thumb1/FlameSpriteLVL1ProxyIdle2:R_Thumb2
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow/FlameSpriteLVL1ProxyIdle2:R_Wrist/FlameSpriteLVL1ProxyIdle2:R_Hand/FlameSpriteLVL1ProxyIdle2:R_Thumb1/FlameSpriteLVL1ProxyIdle2:R_Thumb2/FlameSpriteLVL1ProxyIdle2:R_Thumb3
+        weight: 1
+      - path: pCylinder8
+        weight: 0
+      - path: polySurface41
+        weight: 0
+      - path: polySurface57
+        weight: 0
+      - path: polySurface62
+        weight: 0
+      - path: polySurface63
+        weight: 0
+      - path: polySurface64
+        weight: 0
+      - path: polySurface66
+        weight: 0
+      - path: polySurface67
+        weight: 0
+      - path: polySurface68
+        weight: 0
+      - path: polySurface69
+        weight: 0
+      - path: polySurface70
+        weight: 0
+      - path: polySurface71
+        weight: 0
+      - path: polySurface73
+        weight: 0
+      - path: polySurface74
+        weight: 0
+      - path: polySurface75
+        weight: 0
+      - path: polySurface76
+        weight: 0
+      - path: polySurface77
+        weight: 0
+      - path: polySurface78
+        weight: 0
+      - path: polySurface84
+        weight: 0
+      - path: polySurface86
+        weight: 0
+      - path: polySurface87
+        weight: 0
+      - path: polySurface88
+        weight: 0
+      - path: polySurface89
+        weight: 0
+      - path: polySurface90
+        weight: 0
+      - path: polySurface91
+        weight: 0
+      - path: polySurface94
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Fireball
+      takeName: Take 001
+      firstFrame: 180
+      lastFrame: 222
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: .625766754
+        functionName: Fire()
+        data: 
+        objectReferenceParameter: {fileID: 193320, guid: 807ac25d9ffad3e47a510dd24d285ae1,
+          type: 2}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:pCylinder1
+        weight: 0
+      - path: FlameSpriteLVL1ProxyIdle2:Root
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:L_Leg
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:L_Leg/FlameSpriteLVL1ProxyIdle2:L_Knee
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:L_Leg/FlameSpriteLVL1ProxyIdle2:L_Knee/FlameSpriteLVL1ProxyIdle2:L_Foot
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:R_Leg
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:R_Leg/FlameSpriteLVL1ProxyIdle2:R_Knee
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:R_Leg/FlameSpriteLVL1ProxyIdle2:R_Knee/FlameSpriteLVL1ProxyIdle2:R_Foot
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow/FlameSpriteLVL1ProxyIdle2:L_Wrist
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow/FlameSpriteLVL1ProxyIdle2:L_Wrist/FlameSpriteLVL1ProxyIdle2:L_Hand
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow/FlameSpriteLVL1ProxyIdle2:L_Wrist/FlameSpriteLVL1ProxyIdle2:L_Hand/FlameSpriteLVL1ProxyIdle2:L_Index1
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow/FlameSpriteLVL1ProxyIdle2:L_Wrist/FlameSpriteLVL1ProxyIdle2:L_Hand/FlameSpriteLVL1ProxyIdle2:L_Index1/FlameSpriteLVL1ProxyIdle2:L_Index2
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow/FlameSpriteLVL1ProxyIdle2:L_Wrist/FlameSpriteLVL1ProxyIdle2:L_Hand/FlameSpriteLVL1ProxyIdle2:L_Index1/FlameSpriteLVL1ProxyIdle2:L_Index2/FlameSpriteLVL1ProxyIdle2:L_Index3
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow/FlameSpriteLVL1ProxyIdle2:L_Wrist/FlameSpriteLVL1ProxyIdle2:L_Hand/FlameSpriteLVL1ProxyIdle2:L_Middle1
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow/FlameSpriteLVL1ProxyIdle2:L_Wrist/FlameSpriteLVL1ProxyIdle2:L_Hand/FlameSpriteLVL1ProxyIdle2:L_Middle1/FlameSpriteLVL1ProxyIdle2:L_Middle2
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow/FlameSpriteLVL1ProxyIdle2:L_Wrist/FlameSpriteLVL1ProxyIdle2:L_Hand/FlameSpriteLVL1ProxyIdle2:L_Middle1/FlameSpriteLVL1ProxyIdle2:L_Middle2/FlameSpriteLVL1ProxyIdle2:L_Middle3
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow/FlameSpriteLVL1ProxyIdle2:L_Wrist/FlameSpriteLVL1ProxyIdle2:L_Hand/FlameSpriteLVL1ProxyIdle2:L_Pinky1
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow/FlameSpriteLVL1ProxyIdle2:L_Wrist/FlameSpriteLVL1ProxyIdle2:L_Hand/FlameSpriteLVL1ProxyIdle2:L_Pinky1/FlameSpriteLVL1ProxyIdle2:L_Pinky2
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow/FlameSpriteLVL1ProxyIdle2:L_Wrist/FlameSpriteLVL1ProxyIdle2:L_Hand/FlameSpriteLVL1ProxyIdle2:L_Pinky1/FlameSpriteLVL1ProxyIdle2:L_Pinky2/FlameSpriteLVL1ProxyIdle2:L_Pinky3
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow/FlameSpriteLVL1ProxyIdle2:L_Wrist/FlameSpriteLVL1ProxyIdle2:L_Hand/FlameSpriteLVL1ProxyIdle2:L_Thumb1
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow/FlameSpriteLVL1ProxyIdle2:L_Wrist/FlameSpriteLVL1ProxyIdle2:L_Hand/FlameSpriteLVL1ProxyIdle2:L_Thumb1/FlameSpriteLVL1ProxyIdle2:L_Thumb2
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow/FlameSpriteLVL1ProxyIdle2:L_Wrist/FlameSpriteLVL1ProxyIdle2:L_Hand/FlameSpriteLVL1ProxyIdle2:L_Thumb1/FlameSpriteLVL1ProxyIdle2:L_Thumb2/FlameSpriteLVL1ProxyIdle2:L_Thumb3
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:Neck
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:Neck/FlameSpriteLVL1ProxyIdle2:TopHead
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow/FlameSpriteLVL1ProxyIdle2:R_Wrist
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow/FlameSpriteLVL1ProxyIdle2:R_Wrist/FlameSpriteLVL1ProxyIdle2:R_Hand
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow/FlameSpriteLVL1ProxyIdle2:R_Wrist/FlameSpriteLVL1ProxyIdle2:R_Hand/FlameSpriteLVL1ProxyIdle2:R_Index1
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow/FlameSpriteLVL1ProxyIdle2:R_Wrist/FlameSpriteLVL1ProxyIdle2:R_Hand/FlameSpriteLVL1ProxyIdle2:R_Index1/FlameSpriteLVL1ProxyIdle2:R_Index2
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow/FlameSpriteLVL1ProxyIdle2:R_Wrist/FlameSpriteLVL1ProxyIdle2:R_Hand/FlameSpriteLVL1ProxyIdle2:R_Index1/FlameSpriteLVL1ProxyIdle2:R_Index2/FlameSpriteLVL1ProxyIdle2:R_Index3
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow/FlameSpriteLVL1ProxyIdle2:R_Wrist/FlameSpriteLVL1ProxyIdle2:R_Hand/FlameSpriteLVL1ProxyIdle2:R_Middle1
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow/FlameSpriteLVL1ProxyIdle2:R_Wrist/FlameSpriteLVL1ProxyIdle2:R_Hand/FlameSpriteLVL1ProxyIdle2:R_Middle1/FlameSpriteLVL1ProxyIdle2:R_Middle2
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow/FlameSpriteLVL1ProxyIdle2:R_Wrist/FlameSpriteLVL1ProxyIdle2:R_Hand/FlameSpriteLVL1ProxyIdle2:R_Middle1/FlameSpriteLVL1ProxyIdle2:R_Middle2/FlameSpriteLVL1ProxyIdle2:R_Middle3
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow/FlameSpriteLVL1ProxyIdle2:R_Wrist/FlameSpriteLVL1ProxyIdle2:R_Hand/FlameSpriteLVL1ProxyIdle2:R_Pinky1
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow/FlameSpriteLVL1ProxyIdle2:R_Wrist/FlameSpriteLVL1ProxyIdle2:R_Hand/FlameSpriteLVL1ProxyIdle2:R_Pinky1/FlameSpriteLVL1ProxyIdle2:R_Pinky2
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow/FlameSpriteLVL1ProxyIdle2:R_Wrist/FlameSpriteLVL1ProxyIdle2:R_Hand/FlameSpriteLVL1ProxyIdle2:R_Pinky1/FlameSpriteLVL1ProxyIdle2:R_Pinky2/FlameSpriteLVL1ProxyIdle2:R_Pinky3
+        weight: 0
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow/FlameSpriteLVL1ProxyIdle2:R_Wrist/FlameSpriteLVL1ProxyIdle2:R_Hand/FlameSpriteLVL1ProxyIdle2:R_Thumb1
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow/FlameSpriteLVL1ProxyIdle2:R_Wrist/FlameSpriteLVL1ProxyIdle2:R_Hand/FlameSpriteLVL1ProxyIdle2:R_Thumb1/FlameSpriteLVL1ProxyIdle2:R_Thumb2
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow/FlameSpriteLVL1ProxyIdle2:R_Wrist/FlameSpriteLVL1ProxyIdle2:R_Hand/FlameSpriteLVL1ProxyIdle2:R_Thumb1/FlameSpriteLVL1ProxyIdle2:R_Thumb2/FlameSpriteLVL1ProxyIdle2:R_Thumb3
+        weight: 1
+      - path: pCylinder8
+        weight: 0
+      - path: polySurface41
+        weight: 0
+      - path: polySurface57
+        weight: 0
+      - path: polySurface62
+        weight: 0
+      - path: polySurface63
+        weight: 0
+      - path: polySurface64
+        weight: 0
+      - path: polySurface66
+        weight: 0
+      - path: polySurface67
+        weight: 0
+      - path: polySurface68
+        weight: 0
+      - path: polySurface69
+        weight: 0
+      - path: polySurface70
+        weight: 0
+      - path: polySurface71
+        weight: 0
+      - path: polySurface73
+        weight: 0
+      - path: polySurface74
+        weight: 0
+      - path: polySurface75
+        weight: 0
+      - path: polySurface76
+        weight: 0
+      - path: polySurface77
+        weight: 0
+      - path: polySurface78
+        weight: 0
+      - path: polySurface84
+        weight: 0
+      - path: polySurface86
+        weight: 0
+      - path: polySurface87
+        weight: 0
+      - path: polySurface88
+        weight: 0
+      - path: polySurface89
+        weight: 0
+      - path: polySurface90
+        weight: 0
+      - path: polySurface91
+        weight: 0
+      - path: polySurface94
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: TwoHandedFireball
+      takeName: Take 001
+      firstFrame: 252
+      lastFrame: 283
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:pCylinder1
+        weight: 0
+      - path: FlameSpriteLVL1ProxyIdle2:Root
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:L_Leg
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:L_Leg/FlameSpriteLVL1ProxyIdle2:L_Knee
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:L_Leg/FlameSpriteLVL1ProxyIdle2:L_Knee/FlameSpriteLVL1ProxyIdle2:L_Foot
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:R_Leg
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:R_Leg/FlameSpriteLVL1ProxyIdle2:R_Knee
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:R_Leg/FlameSpriteLVL1ProxyIdle2:R_Knee/FlameSpriteLVL1ProxyIdle2:R_Foot
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow/FlameSpriteLVL1ProxyIdle2:L_Wrist
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow/FlameSpriteLVL1ProxyIdle2:L_Wrist/FlameSpriteLVL1ProxyIdle2:L_Hand
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow/FlameSpriteLVL1ProxyIdle2:L_Wrist/FlameSpriteLVL1ProxyIdle2:L_Hand/FlameSpriteLVL1ProxyIdle2:L_Index1
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow/FlameSpriteLVL1ProxyIdle2:L_Wrist/FlameSpriteLVL1ProxyIdle2:L_Hand/FlameSpriteLVL1ProxyIdle2:L_Index1/FlameSpriteLVL1ProxyIdle2:L_Index2
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow/FlameSpriteLVL1ProxyIdle2:L_Wrist/FlameSpriteLVL1ProxyIdle2:L_Hand/FlameSpriteLVL1ProxyIdle2:L_Index1/FlameSpriteLVL1ProxyIdle2:L_Index2/FlameSpriteLVL1ProxyIdle2:L_Index3
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow/FlameSpriteLVL1ProxyIdle2:L_Wrist/FlameSpriteLVL1ProxyIdle2:L_Hand/FlameSpriteLVL1ProxyIdle2:L_Middle1
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow/FlameSpriteLVL1ProxyIdle2:L_Wrist/FlameSpriteLVL1ProxyIdle2:L_Hand/FlameSpriteLVL1ProxyIdle2:L_Middle1/FlameSpriteLVL1ProxyIdle2:L_Middle2
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow/FlameSpriteLVL1ProxyIdle2:L_Wrist/FlameSpriteLVL1ProxyIdle2:L_Hand/FlameSpriteLVL1ProxyIdle2:L_Middle1/FlameSpriteLVL1ProxyIdle2:L_Middle2/FlameSpriteLVL1ProxyIdle2:L_Middle3
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow/FlameSpriteLVL1ProxyIdle2:L_Wrist/FlameSpriteLVL1ProxyIdle2:L_Hand/FlameSpriteLVL1ProxyIdle2:L_Pinky1
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow/FlameSpriteLVL1ProxyIdle2:L_Wrist/FlameSpriteLVL1ProxyIdle2:L_Hand/FlameSpriteLVL1ProxyIdle2:L_Pinky1/FlameSpriteLVL1ProxyIdle2:L_Pinky2
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow/FlameSpriteLVL1ProxyIdle2:L_Wrist/FlameSpriteLVL1ProxyIdle2:L_Hand/FlameSpriteLVL1ProxyIdle2:L_Pinky1/FlameSpriteLVL1ProxyIdle2:L_Pinky2/FlameSpriteLVL1ProxyIdle2:L_Pinky3
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow/FlameSpriteLVL1ProxyIdle2:L_Wrist/FlameSpriteLVL1ProxyIdle2:L_Hand/FlameSpriteLVL1ProxyIdle2:L_Thumb1
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow/FlameSpriteLVL1ProxyIdle2:L_Wrist/FlameSpriteLVL1ProxyIdle2:L_Hand/FlameSpriteLVL1ProxyIdle2:L_Thumb1/FlameSpriteLVL1ProxyIdle2:L_Thumb2
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow/FlameSpriteLVL1ProxyIdle2:L_Wrist/FlameSpriteLVL1ProxyIdle2:L_Hand/FlameSpriteLVL1ProxyIdle2:L_Thumb1/FlameSpriteLVL1ProxyIdle2:L_Thumb2/FlameSpriteLVL1ProxyIdle2:L_Thumb3
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:Neck
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:Neck/FlameSpriteLVL1ProxyIdle2:TopHead
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow/FlameSpriteLVL1ProxyIdle2:R_Wrist
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow/FlameSpriteLVL1ProxyIdle2:R_Wrist/FlameSpriteLVL1ProxyIdle2:R_Hand
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow/FlameSpriteLVL1ProxyIdle2:R_Wrist/FlameSpriteLVL1ProxyIdle2:R_Hand/FlameSpriteLVL1ProxyIdle2:R_Index1
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow/FlameSpriteLVL1ProxyIdle2:R_Wrist/FlameSpriteLVL1ProxyIdle2:R_Hand/FlameSpriteLVL1ProxyIdle2:R_Index1/FlameSpriteLVL1ProxyIdle2:R_Index2
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow/FlameSpriteLVL1ProxyIdle2:R_Wrist/FlameSpriteLVL1ProxyIdle2:R_Hand/FlameSpriteLVL1ProxyIdle2:R_Index1/FlameSpriteLVL1ProxyIdle2:R_Index2/FlameSpriteLVL1ProxyIdle2:R_Index3
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow/FlameSpriteLVL1ProxyIdle2:R_Wrist/FlameSpriteLVL1ProxyIdle2:R_Hand/FlameSpriteLVL1ProxyIdle2:R_Middle1
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow/FlameSpriteLVL1ProxyIdle2:R_Wrist/FlameSpriteLVL1ProxyIdle2:R_Hand/FlameSpriteLVL1ProxyIdle2:R_Middle1/FlameSpriteLVL1ProxyIdle2:R_Middle2
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow/FlameSpriteLVL1ProxyIdle2:R_Wrist/FlameSpriteLVL1ProxyIdle2:R_Hand/FlameSpriteLVL1ProxyIdle2:R_Middle1/FlameSpriteLVL1ProxyIdle2:R_Middle2/FlameSpriteLVL1ProxyIdle2:R_Middle3
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow/FlameSpriteLVL1ProxyIdle2:R_Wrist/FlameSpriteLVL1ProxyIdle2:R_Hand/FlameSpriteLVL1ProxyIdle2:R_Pinky1
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow/FlameSpriteLVL1ProxyIdle2:R_Wrist/FlameSpriteLVL1ProxyIdle2:R_Hand/FlameSpriteLVL1ProxyIdle2:R_Pinky1/FlameSpriteLVL1ProxyIdle2:R_Pinky2
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow/FlameSpriteLVL1ProxyIdle2:R_Wrist/FlameSpriteLVL1ProxyIdle2:R_Hand/FlameSpriteLVL1ProxyIdle2:R_Pinky1/FlameSpriteLVL1ProxyIdle2:R_Pinky2/FlameSpriteLVL1ProxyIdle2:R_Pinky3
+        weight: 0
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow/FlameSpriteLVL1ProxyIdle2:R_Wrist/FlameSpriteLVL1ProxyIdle2:R_Hand/FlameSpriteLVL1ProxyIdle2:R_Thumb1
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow/FlameSpriteLVL1ProxyIdle2:R_Wrist/FlameSpriteLVL1ProxyIdle2:R_Hand/FlameSpriteLVL1ProxyIdle2:R_Thumb1/FlameSpriteLVL1ProxyIdle2:R_Thumb2
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow/FlameSpriteLVL1ProxyIdle2:R_Wrist/FlameSpriteLVL1ProxyIdle2:R_Hand/FlameSpriteLVL1ProxyIdle2:R_Thumb1/FlameSpriteLVL1ProxyIdle2:R_Thumb2/FlameSpriteLVL1ProxyIdle2:R_Thumb3
+        weight: 1
+      - path: pCylinder8
+        weight: 0
+      - path: polySurface41
+        weight: 0
+      - path: polySurface57
+        weight: 0
+      - path: polySurface62
+        weight: 0
+      - path: polySurface63
+        weight: 0
+      - path: polySurface64
+        weight: 0
+      - path: polySurface66
+        weight: 0
+      - path: polySurface67
+        weight: 0
+      - path: polySurface68
+        weight: 0
+      - path: polySurface69
+        weight: 0
+      - path: polySurface70
+        weight: 0
+      - path: polySurface71
+        weight: 0
+      - path: polySurface73
+        weight: 0
+      - path: polySurface74
+        weight: 0
+      - path: polySurface75
+        weight: 0
+      - path: polySurface76
+        weight: 0
+      - path: polySurface77
+        weight: 0
+      - path: polySurface78
+        weight: 0
+      - path: polySurface84
+        weight: 0
+      - path: polySurface86
+        weight: 0
+      - path: polySurface87
+        weight: 0
+      - path: polySurface88
+        weight: 0
+      - path: polySurface89
+        weight: 0
+      - path: polySurface90
+        weight: 0
+      - path: polySurface91
+        weight: 0
+      - path: polySurface94
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: GitHitBit
+      takeName: Take 001
+      firstFrame: 311
+      lastFrame: 325
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:pCylinder1
+        weight: 0
+      - path: FlameSpriteLVL1ProxyIdle2:Root
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:L_Leg
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:L_Leg/FlameSpriteLVL1ProxyIdle2:L_Knee
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:L_Leg/FlameSpriteLVL1ProxyIdle2:L_Knee/FlameSpriteLVL1ProxyIdle2:L_Foot
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:R_Leg
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:R_Leg/FlameSpriteLVL1ProxyIdle2:R_Knee
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:R_Leg/FlameSpriteLVL1ProxyIdle2:R_Knee/FlameSpriteLVL1ProxyIdle2:R_Foot
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow/FlameSpriteLVL1ProxyIdle2:L_Wrist
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow/FlameSpriteLVL1ProxyIdle2:L_Wrist/FlameSpriteLVL1ProxyIdle2:L_Hand
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow/FlameSpriteLVL1ProxyIdle2:L_Wrist/FlameSpriteLVL1ProxyIdle2:L_Hand/FlameSpriteLVL1ProxyIdle2:L_Index1
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow/FlameSpriteLVL1ProxyIdle2:L_Wrist/FlameSpriteLVL1ProxyIdle2:L_Hand/FlameSpriteLVL1ProxyIdle2:L_Index1/FlameSpriteLVL1ProxyIdle2:L_Index2
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow/FlameSpriteLVL1ProxyIdle2:L_Wrist/FlameSpriteLVL1ProxyIdle2:L_Hand/FlameSpriteLVL1ProxyIdle2:L_Index1/FlameSpriteLVL1ProxyIdle2:L_Index2/FlameSpriteLVL1ProxyIdle2:L_Index3
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow/FlameSpriteLVL1ProxyIdle2:L_Wrist/FlameSpriteLVL1ProxyIdle2:L_Hand/FlameSpriteLVL1ProxyIdle2:L_Middle1
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow/FlameSpriteLVL1ProxyIdle2:L_Wrist/FlameSpriteLVL1ProxyIdle2:L_Hand/FlameSpriteLVL1ProxyIdle2:L_Middle1/FlameSpriteLVL1ProxyIdle2:L_Middle2
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow/FlameSpriteLVL1ProxyIdle2:L_Wrist/FlameSpriteLVL1ProxyIdle2:L_Hand/FlameSpriteLVL1ProxyIdle2:L_Middle1/FlameSpriteLVL1ProxyIdle2:L_Middle2/FlameSpriteLVL1ProxyIdle2:L_Middle3
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow/FlameSpriteLVL1ProxyIdle2:L_Wrist/FlameSpriteLVL1ProxyIdle2:L_Hand/FlameSpriteLVL1ProxyIdle2:L_Pinky1
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow/FlameSpriteLVL1ProxyIdle2:L_Wrist/FlameSpriteLVL1ProxyIdle2:L_Hand/FlameSpriteLVL1ProxyIdle2:L_Pinky1/FlameSpriteLVL1ProxyIdle2:L_Pinky2
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow/FlameSpriteLVL1ProxyIdle2:L_Wrist/FlameSpriteLVL1ProxyIdle2:L_Hand/FlameSpriteLVL1ProxyIdle2:L_Pinky1/FlameSpriteLVL1ProxyIdle2:L_Pinky2/FlameSpriteLVL1ProxyIdle2:L_Pinky3
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow/FlameSpriteLVL1ProxyIdle2:L_Wrist/FlameSpriteLVL1ProxyIdle2:L_Hand/FlameSpriteLVL1ProxyIdle2:L_Thumb1
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow/FlameSpriteLVL1ProxyIdle2:L_Wrist/FlameSpriteLVL1ProxyIdle2:L_Hand/FlameSpriteLVL1ProxyIdle2:L_Thumb1/FlameSpriteLVL1ProxyIdle2:L_Thumb2
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow/FlameSpriteLVL1ProxyIdle2:L_Wrist/FlameSpriteLVL1ProxyIdle2:L_Hand/FlameSpriteLVL1ProxyIdle2:L_Thumb1/FlameSpriteLVL1ProxyIdle2:L_Thumb2/FlameSpriteLVL1ProxyIdle2:L_Thumb3
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:Neck
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:Neck/FlameSpriteLVL1ProxyIdle2:TopHead
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow/FlameSpriteLVL1ProxyIdle2:R_Wrist
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow/FlameSpriteLVL1ProxyIdle2:R_Wrist/FlameSpriteLVL1ProxyIdle2:R_Hand
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow/FlameSpriteLVL1ProxyIdle2:R_Wrist/FlameSpriteLVL1ProxyIdle2:R_Hand/FlameSpriteLVL1ProxyIdle2:R_Index1
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow/FlameSpriteLVL1ProxyIdle2:R_Wrist/FlameSpriteLVL1ProxyIdle2:R_Hand/FlameSpriteLVL1ProxyIdle2:R_Index1/FlameSpriteLVL1ProxyIdle2:R_Index2
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow/FlameSpriteLVL1ProxyIdle2:R_Wrist/FlameSpriteLVL1ProxyIdle2:R_Hand/FlameSpriteLVL1ProxyIdle2:R_Index1/FlameSpriteLVL1ProxyIdle2:R_Index2/FlameSpriteLVL1ProxyIdle2:R_Index3
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow/FlameSpriteLVL1ProxyIdle2:R_Wrist/FlameSpriteLVL1ProxyIdle2:R_Hand/FlameSpriteLVL1ProxyIdle2:R_Middle1
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow/FlameSpriteLVL1ProxyIdle2:R_Wrist/FlameSpriteLVL1ProxyIdle2:R_Hand/FlameSpriteLVL1ProxyIdle2:R_Middle1/FlameSpriteLVL1ProxyIdle2:R_Middle2
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow/FlameSpriteLVL1ProxyIdle2:R_Wrist/FlameSpriteLVL1ProxyIdle2:R_Hand/FlameSpriteLVL1ProxyIdle2:R_Middle1/FlameSpriteLVL1ProxyIdle2:R_Middle2/FlameSpriteLVL1ProxyIdle2:R_Middle3
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow/FlameSpriteLVL1ProxyIdle2:R_Wrist/FlameSpriteLVL1ProxyIdle2:R_Hand/FlameSpriteLVL1ProxyIdle2:R_Pinky1
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow/FlameSpriteLVL1ProxyIdle2:R_Wrist/FlameSpriteLVL1ProxyIdle2:R_Hand/FlameSpriteLVL1ProxyIdle2:R_Pinky1/FlameSpriteLVL1ProxyIdle2:R_Pinky2
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow/FlameSpriteLVL1ProxyIdle2:R_Wrist/FlameSpriteLVL1ProxyIdle2:R_Hand/FlameSpriteLVL1ProxyIdle2:R_Pinky1/FlameSpriteLVL1ProxyIdle2:R_Pinky2/FlameSpriteLVL1ProxyIdle2:R_Pinky3
+        weight: 0
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow/FlameSpriteLVL1ProxyIdle2:R_Wrist/FlameSpriteLVL1ProxyIdle2:R_Hand/FlameSpriteLVL1ProxyIdle2:R_Thumb1
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow/FlameSpriteLVL1ProxyIdle2:R_Wrist/FlameSpriteLVL1ProxyIdle2:R_Hand/FlameSpriteLVL1ProxyIdle2:R_Thumb1/FlameSpriteLVL1ProxyIdle2:R_Thumb2
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow/FlameSpriteLVL1ProxyIdle2:R_Wrist/FlameSpriteLVL1ProxyIdle2:R_Hand/FlameSpriteLVL1ProxyIdle2:R_Thumb1/FlameSpriteLVL1ProxyIdle2:R_Thumb2/FlameSpriteLVL1ProxyIdle2:R_Thumb3
+        weight: 1
+      - path: pCylinder8
+        weight: 0
+      - path: polySurface41
+        weight: 0
+      - path: polySurface57
+        weight: 0
+      - path: polySurface62
+        weight: 0
+      - path: polySurface63
+        weight: 0
+      - path: polySurface64
+        weight: 0
+      - path: polySurface66
+        weight: 0
+      - path: polySurface67
+        weight: 0
+      - path: polySurface68
+        weight: 0
+      - path: polySurface69
+        weight: 0
+      - path: polySurface70
+        weight: 0
+      - path: polySurface71
+        weight: 0
+      - path: polySurface73
+        weight: 0
+      - path: polySurface74
+        weight: 0
+      - path: polySurface75
+        weight: 0
+      - path: polySurface76
+        weight: 0
+      - path: polySurface77
+        weight: 0
+      - path: polySurface78
+        weight: 0
+      - path: polySurface84
+        weight: 0
+      - path: polySurface86
+        weight: 0
+      - path: polySurface87
+        weight: 0
+      - path: polySurface88
+        weight: 0
+      - path: polySurface89
+        weight: 0
+      - path: polySurface90
+        weight: 0
+      - path: polySurface91
+        weight: 0
+      - path: polySurface94
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Death
+      takeName: Take 001
+      firstFrame: 330
+      lastFrame: 388
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:pCylinder1
+        weight: 0
+      - path: FlameSpriteLVL1ProxyIdle2:Root
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:L_Leg
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:L_Leg/FlameSpriteLVL1ProxyIdle2:L_Knee
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:L_Leg/FlameSpriteLVL1ProxyIdle2:L_Knee/FlameSpriteLVL1ProxyIdle2:L_Foot
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:R_Leg
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:R_Leg/FlameSpriteLVL1ProxyIdle2:R_Knee
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:R_Leg/FlameSpriteLVL1ProxyIdle2:R_Knee/FlameSpriteLVL1ProxyIdle2:R_Foot
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow/FlameSpriteLVL1ProxyIdle2:L_Wrist
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow/FlameSpriteLVL1ProxyIdle2:L_Wrist/FlameSpriteLVL1ProxyIdle2:L_Hand
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow/FlameSpriteLVL1ProxyIdle2:L_Wrist/FlameSpriteLVL1ProxyIdle2:L_Hand/FlameSpriteLVL1ProxyIdle2:L_Index1
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow/FlameSpriteLVL1ProxyIdle2:L_Wrist/FlameSpriteLVL1ProxyIdle2:L_Hand/FlameSpriteLVL1ProxyIdle2:L_Index1/FlameSpriteLVL1ProxyIdle2:L_Index2
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow/FlameSpriteLVL1ProxyIdle2:L_Wrist/FlameSpriteLVL1ProxyIdle2:L_Hand/FlameSpriteLVL1ProxyIdle2:L_Index1/FlameSpriteLVL1ProxyIdle2:L_Index2/FlameSpriteLVL1ProxyIdle2:L_Index3
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow/FlameSpriteLVL1ProxyIdle2:L_Wrist/FlameSpriteLVL1ProxyIdle2:L_Hand/FlameSpriteLVL1ProxyIdle2:L_Middle1
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow/FlameSpriteLVL1ProxyIdle2:L_Wrist/FlameSpriteLVL1ProxyIdle2:L_Hand/FlameSpriteLVL1ProxyIdle2:L_Middle1/FlameSpriteLVL1ProxyIdle2:L_Middle2
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow/FlameSpriteLVL1ProxyIdle2:L_Wrist/FlameSpriteLVL1ProxyIdle2:L_Hand/FlameSpriteLVL1ProxyIdle2:L_Middle1/FlameSpriteLVL1ProxyIdle2:L_Middle2/FlameSpriteLVL1ProxyIdle2:L_Middle3
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow/FlameSpriteLVL1ProxyIdle2:L_Wrist/FlameSpriteLVL1ProxyIdle2:L_Hand/FlameSpriteLVL1ProxyIdle2:L_Pinky1
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow/FlameSpriteLVL1ProxyIdle2:L_Wrist/FlameSpriteLVL1ProxyIdle2:L_Hand/FlameSpriteLVL1ProxyIdle2:L_Pinky1/FlameSpriteLVL1ProxyIdle2:L_Pinky2
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow/FlameSpriteLVL1ProxyIdle2:L_Wrist/FlameSpriteLVL1ProxyIdle2:L_Hand/FlameSpriteLVL1ProxyIdle2:L_Pinky1/FlameSpriteLVL1ProxyIdle2:L_Pinky2/FlameSpriteLVL1ProxyIdle2:L_Pinky3
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow/FlameSpriteLVL1ProxyIdle2:L_Wrist/FlameSpriteLVL1ProxyIdle2:L_Hand/FlameSpriteLVL1ProxyIdle2:L_Thumb1
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow/FlameSpriteLVL1ProxyIdle2:L_Wrist/FlameSpriteLVL1ProxyIdle2:L_Hand/FlameSpriteLVL1ProxyIdle2:L_Thumb1/FlameSpriteLVL1ProxyIdle2:L_Thumb2
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:L_Clavecal/FlameSpriteLVL1ProxyIdle2:L_Arm/FlameSpriteLVL1ProxyIdle2:L_Elbow/FlameSpriteLVL1ProxyIdle2:L_Wrist/FlameSpriteLVL1ProxyIdle2:L_Hand/FlameSpriteLVL1ProxyIdle2:L_Thumb1/FlameSpriteLVL1ProxyIdle2:L_Thumb2/FlameSpriteLVL1ProxyIdle2:L_Thumb3
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:Neck
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:Neck/FlameSpriteLVL1ProxyIdle2:TopHead
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow/FlameSpriteLVL1ProxyIdle2:R_Wrist
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow/FlameSpriteLVL1ProxyIdle2:R_Wrist/FlameSpriteLVL1ProxyIdle2:R_Hand
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow/FlameSpriteLVL1ProxyIdle2:R_Wrist/FlameSpriteLVL1ProxyIdle2:R_Hand/FlameSpriteLVL1ProxyIdle2:R_Index1
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow/FlameSpriteLVL1ProxyIdle2:R_Wrist/FlameSpriteLVL1ProxyIdle2:R_Hand/FlameSpriteLVL1ProxyIdle2:R_Index1/FlameSpriteLVL1ProxyIdle2:R_Index2
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow/FlameSpriteLVL1ProxyIdle2:R_Wrist/FlameSpriteLVL1ProxyIdle2:R_Hand/FlameSpriteLVL1ProxyIdle2:R_Index1/FlameSpriteLVL1ProxyIdle2:R_Index2/FlameSpriteLVL1ProxyIdle2:R_Index3
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow/FlameSpriteLVL1ProxyIdle2:R_Wrist/FlameSpriteLVL1ProxyIdle2:R_Hand/FlameSpriteLVL1ProxyIdle2:R_Middle1
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow/FlameSpriteLVL1ProxyIdle2:R_Wrist/FlameSpriteLVL1ProxyIdle2:R_Hand/FlameSpriteLVL1ProxyIdle2:R_Middle1/FlameSpriteLVL1ProxyIdle2:R_Middle2
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow/FlameSpriteLVL1ProxyIdle2:R_Wrist/FlameSpriteLVL1ProxyIdle2:R_Hand/FlameSpriteLVL1ProxyIdle2:R_Middle1/FlameSpriteLVL1ProxyIdle2:R_Middle2/FlameSpriteLVL1ProxyIdle2:R_Middle3
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow/FlameSpriteLVL1ProxyIdle2:R_Wrist/FlameSpriteLVL1ProxyIdle2:R_Hand/FlameSpriteLVL1ProxyIdle2:R_Pinky1
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow/FlameSpriteLVL1ProxyIdle2:R_Wrist/FlameSpriteLVL1ProxyIdle2:R_Hand/FlameSpriteLVL1ProxyIdle2:R_Pinky1/FlameSpriteLVL1ProxyIdle2:R_Pinky2
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow/FlameSpriteLVL1ProxyIdle2:R_Wrist/FlameSpriteLVL1ProxyIdle2:R_Hand/FlameSpriteLVL1ProxyIdle2:R_Pinky1/FlameSpriteLVL1ProxyIdle2:R_Pinky2/FlameSpriteLVL1ProxyIdle2:R_Pinky3
+        weight: 0
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow/FlameSpriteLVL1ProxyIdle2:R_Wrist/FlameSpriteLVL1ProxyIdle2:R_Hand/FlameSpriteLVL1ProxyIdle2:R_Thumb1
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow/FlameSpriteLVL1ProxyIdle2:R_Wrist/FlameSpriteLVL1ProxyIdle2:R_Hand/FlameSpriteLVL1ProxyIdle2:R_Thumb1/FlameSpriteLVL1ProxyIdle2:R_Thumb2
+        weight: 1
+      - path: FlameSpriteLVL1ProxyIdle2:Root/FlameSpriteLVL1ProxyIdle2:Spine1/FlameSpriteLVL1ProxyIdle2:Spine2/FlameSpriteLVL1ProxyIdle2:R_Clavecal/FlameSpriteLVL1ProxyIdle2:R_Arm/FlameSpriteLVL1ProxyIdle2:R_Elbow/FlameSpriteLVL1ProxyIdle2:R_Wrist/FlameSpriteLVL1ProxyIdle2:R_Hand/FlameSpriteLVL1ProxyIdle2:R_Thumb1/FlameSpriteLVL1ProxyIdle2:R_Thumb2/FlameSpriteLVL1ProxyIdle2:R_Thumb3
+        weight: 1
+      - path: pCylinder8
+        weight: 0
+      - path: polySurface41
+        weight: 0
+      - path: polySurface57
+        weight: 0
+      - path: polySurface62
+        weight: 0
+      - path: polySurface63
+        weight: 0
+      - path: polySurface64
+        weight: 0
+      - path: polySurface66
+        weight: 0
+      - path: polySurface67
+        weight: 0
+      - path: polySurface68
+        weight: 0
+      - path: polySurface69
+        weight: 0
+      - path: polySurface70
+        weight: 0
+      - path: polySurface71
+        weight: 0
+      - path: polySurface73
+        weight: 0
+      - path: polySurface74
+        weight: 0
+      - path: polySurface75
+        weight: 0
+      - path: polySurface76
+        weight: 0
+      - path: polySurface77
+        weight: 0
+      - path: polySurface78
+        weight: 0
+      - path: polySurface84
+        weight: 0
+      - path: polySurface86
+        weight: 0
+      - path: polySurface87
+        weight: 0
+      - path: polySurface88
+        weight: 0
+      - path: polySurface89
+        weight: 0
+      - path: polySurface90
+        weight: 0
+      - path: polySurface91
+        weight: 0
+      - path: polySurface94
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
     isReadable: 1
   meshes:
     lODScreenPercentages: []

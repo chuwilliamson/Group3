@@ -15,6 +15,7 @@ public class CTakeDamage : MonoBehaviour
     {
        // healthBarLength = Screen.width / 2;
     }
+
 	void OnParticleCollison(Collision a_col)
 	{
 		Vector3 hitForce = (a_col.transform.position - this.transform.position).normalized; //direction of force

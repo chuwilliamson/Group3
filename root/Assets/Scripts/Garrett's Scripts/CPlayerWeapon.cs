@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 public class CPlayerWeapon : CWeapon {
 
-    public Animator anim;
+    //public Animator anim;
     private float startingROF;
     private float startingDamage;
     private float startingLifetime;

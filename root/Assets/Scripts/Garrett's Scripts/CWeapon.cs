@@ -25,17 +25,16 @@ public class CWeapon : MonoBehaviour
     protected virtual void Update()
     {
 
-        if (Input.GetKey(KeyCode.Mouse0) && timer < 0)
+		if(Input.GetKey(KeyCode.Mouse0) && timer < 0)
         {
             GameObject instPrefab = Instantiate(projectile, GetComponent<Transform>().position, GetComponent<Transform>().rotation) as GameObject;
-           // instPrefab.transform.parent = GameObject.Find("Bucket").transform;
             instPrefab.transform.parent = GameObject.FindGameObjectWithTag("Bucket").transform;
             timer = rof;
         }
 
         timer -= Time.deltaTime;
-    }
 
+	}
     public void Randomize(float value)
     {
         rof = Random.Range(0.01f, value * 0.02f);

@@ -104,6 +104,7 @@ ModelImporter:
     7400006: TwoHandFireball
     7400008: GetHitBit
     7400010: Death
+    7400012: Fireballs
     9500000: //RootNode
     13700000: pCylinder1
   materials:
@@ -365,7 +366,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Fireball
       takeName: Take 001
-      firstFrame: 180
+      firstFrame: 210
       lastFrame: 222
       wrapMode: 0
       orientationOffsetY: 0
@@ -745,6 +746,134 @@ ModelImporter:
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
       events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: pCylinder1
+        weight: 0
+      - path: Root
+        weight: 1
+      - path: Root/L_Leg
+        weight: 1
+      - path: Root/L_Leg/L_Knee
+        weight: 1
+      - path: Root/L_Leg/L_Knee/L_Foot
+        weight: 1
+      - path: Root/R_Leg
+        weight: 1
+      - path: Root/R_Leg/R_Knee
+        weight: 1
+      - path: Root/R_Leg/R_Knee/R_Foot
+        weight: 1
+      - path: Root/Spine1
+        weight: 1
+      - path: Root/Spine1/Spine2
+        weight: 1
+      - path: Root/Spine1/Spine2/L_Clavecal
+        weight: 1
+      - path: Root/Spine1/Spine2/L_Clavecal/L_Arm
+        weight: 1
+      - path: Root/Spine1/Spine2/L_Clavecal/L_Arm/L_Elbow
+        weight: 1
+      - path: Root/Spine1/Spine2/L_Clavecal/L_Arm/L_Elbow/L_Wrist
+        weight: 1
+      - path: Root/Spine1/Spine2/L_Clavecal/L_Arm/L_Elbow/L_Wrist/L_Hand
+        weight: 1
+      - path: Root/Spine1/Spine2/L_Clavecal/L_Arm/L_Elbow/L_Wrist/L_Hand/L_Index1
+        weight: 1
+      - path: Root/Spine1/Spine2/L_Clavecal/L_Arm/L_Elbow/L_Wrist/L_Hand/L_Index1/L_Index2
+        weight: 1
+      - path: Root/Spine1/Spine2/L_Clavecal/L_Arm/L_Elbow/L_Wrist/L_Hand/L_Index1/L_Index2/L_Index3
+        weight: 1
+      - path: Root/Spine1/Spine2/L_Clavecal/L_Arm/L_Elbow/L_Wrist/L_Hand/L_Middle1
+        weight: 1
+      - path: Root/Spine1/Spine2/L_Clavecal/L_Arm/L_Elbow/L_Wrist/L_Hand/L_Middle1/L_Middle2
+        weight: 1
+      - path: Root/Spine1/Spine2/L_Clavecal/L_Arm/L_Elbow/L_Wrist/L_Hand/L_Middle1/L_Middle2/L_Middle3
+        weight: 1
+      - path: Root/Spine1/Spine2/L_Clavecal/L_Arm/L_Elbow/L_Wrist/L_Hand/L_Pinky1
+        weight: 1
+      - path: Root/Spine1/Spine2/L_Clavecal/L_Arm/L_Elbow/L_Wrist/L_Hand/L_Pinky1/L_Pinky2
+        weight: 1
+      - path: Root/Spine1/Spine2/L_Clavecal/L_Arm/L_Elbow/L_Wrist/L_Hand/L_Pinky1/L_Pinky2/L_Pinky3
+        weight: 1
+      - path: Root/Spine1/Spine2/L_Clavecal/L_Arm/L_Elbow/L_Wrist/L_Hand/L_Thumb1
+        weight: 1
+      - path: Root/Spine1/Spine2/L_Clavecal/L_Arm/L_Elbow/L_Wrist/L_Hand/L_Thumb1/L_Thumb2
+        weight: 1
+      - path: Root/Spine1/Spine2/L_Clavecal/L_Arm/L_Elbow/L_Wrist/L_Hand/L_Thumb1/L_Thumb2/L_Thumb3
+        weight: 1
+      - path: Root/Spine1/Spine2/Neck
+        weight: 1
+      - path: Root/Spine1/Spine2/Neck/TopHead
+        weight: 1
+      - path: Root/Spine1/Spine2/R_Clavecal
+        weight: 1
+      - path: Root/Spine1/Spine2/R_Clavecal/R_Arm
+        weight: 1
+      - path: Root/Spine1/Spine2/R_Clavecal/R_Arm/R_Elbow
+        weight: 1
+      - path: Root/Spine1/Spine2/R_Clavecal/R_Arm/R_Elbow/R_Wrist
+        weight: 1
+      - path: Root/Spine1/Spine2/R_Clavecal/R_Arm/R_Elbow/R_Wrist/R_Hand
+        weight: 1
+      - path: Root/Spine1/Spine2/R_Clavecal/R_Arm/R_Elbow/R_Wrist/R_Hand/R_Index1
+        weight: 1
+      - path: Root/Spine1/Spine2/R_Clavecal/R_Arm/R_Elbow/R_Wrist/R_Hand/R_Index1/R_Index2
+        weight: 1
+      - path: Root/Spine1/Spine2/R_Clavecal/R_Arm/R_Elbow/R_Wrist/R_Hand/R_Index1/R_Index2/R_Index3
+        weight: 1
+      - path: Root/Spine1/Spine2/R_Clavecal/R_Arm/R_Elbow/R_Wrist/R_Hand/R_Middle1
+        weight: 1
+      - path: Root/Spine1/Spine2/R_Clavecal/R_Arm/R_Elbow/R_Wrist/R_Hand/R_Middle1/R_Middle2
+        weight: 1
+      - path: Root/Spine1/Spine2/R_Clavecal/R_Arm/R_Elbow/R_Wrist/R_Hand/R_Middle1/R_Middle2/R_Middle3
+        weight: 1
+      - path: Root/Spine1/Spine2/R_Clavecal/R_Arm/R_Elbow/R_Wrist/R_Hand/R_Pinky1
+        weight: 1
+      - path: Root/Spine1/Spine2/R_Clavecal/R_Arm/R_Elbow/R_Wrist/R_Hand/R_Pinky1/R_Pinky2
+        weight: 1
+      - path: Root/Spine1/Spine2/R_Clavecal/R_Arm/R_Elbow/R_Wrist/R_Hand/R_Pinky1/R_Pinky2/R_Pinky3
+        weight: 0
+      - path: Root/Spine1/Spine2/R_Clavecal/R_Arm/R_Elbow/R_Wrist/R_Hand/R_Thumb1
+        weight: 1
+      - path: Root/Spine1/Spine2/R_Clavecal/R_Arm/R_Elbow/R_Wrist/R_Hand/R_Thumb1/R_Thumb2
+        weight: 1
+      - path: Root/Spine1/Spine2/R_Clavecal/R_Arm/R_Elbow/R_Wrist/R_Hand/R_Thumb1/R_Thumb2/R_Thumb3
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Fireballs
+      takeName: Take 001
+      firstFrame: 190
+      lastFrame: 210
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: .754600942
+        functionName: Fire()
+        data: 
+        objectReferenceParameter: {fileID: 193320, guid: 807ac25d9ffad3e47a510dd24d285ae1,
+          type: 2}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
       transformMask:
       - path: 
         weight: 1
