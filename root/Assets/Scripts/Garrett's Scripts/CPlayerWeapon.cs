@@ -35,9 +35,9 @@ public class CPlayerWeapon : CWeapon {
 	}
 	
 	// Update is called once per frame
-	protected override void Update () {
+	protected override void FixedUpdate () {
 
-        base.Update();
+        base.FixedUpdate();
 
        
 

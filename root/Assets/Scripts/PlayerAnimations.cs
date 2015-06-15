@@ -2,8 +2,11 @@
 using System.Collections;
 
 public class PlayerAnimations : MonoBehaviour {
+	public float NewTimer;
+	public float RoF;
     private void Awake()
     {
+		//RoF = GetComponent<CWeapon> ().rof;
         print("anim on awake");
     }
     private void OnControllerColliderHit(ControllerColliderHit hit)
@@ -22,12 +25,14 @@ public class PlayerAnimations : MonoBehaviour {
         if (col.gameObject.tag == "Enemy") { }
             //print("enemy touched me");
     }
- private void Update()
+  	void FixedUpdate()
 	{
-		if(Input.GetKey(KeyCode.Mouse0))
+		//NewTimer = GetComponent<CWeapon> ().timer;
+		if(Input.GetKeyDown(KeyCode.Mouse0))
 		{
 			anim.SetTrigger("SingleShot");
 		}	
+		//NewTimer = RoF;
 	}
 
 	public Animator anim;

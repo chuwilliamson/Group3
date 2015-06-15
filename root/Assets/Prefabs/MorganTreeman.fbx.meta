@@ -178,7 +178,7 @@ ModelImporter:
     4300048: polySurface90
     7400000: Idle
     7400002: Idle 2
-    7400004: Fireball
+    7400004: PlayerFireball
     7400006: TwoHandedFireball
     7400008: GitHitBit
     7400010: Death
@@ -569,7 +569,7 @@ ModelImporter:
       maskType: 0
       maskSource: {instanceID: 0}
     - serializedVersion: 16
-      name: Fireball
+      name: PlayerFireball
       takeName: Take 001
       firstFrame: 180
       lastFrame: 222
@@ -590,15 +590,7 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events:
-      - time: .625766754
-        functionName: Fire()
-        data: 
-        objectReferenceParameter: {fileID: 193320, guid: 807ac25d9ffad3e47a510dd24d285ae1,
-          type: 2}
-        floatParameter: 0
-        intParameter: 0
-        messageOptions: 0
+      events: []
       transformMask:
       - path: 
         weight: 1
