@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 public class CPlayerWeapon : CWeapon {
 
-    public Animator anim;
+    //public Animator anim;
     private float startingROF;
     private float startingDamage;
     private float startingLifetime;
@@ -35,14 +35,11 @@ public class CPlayerWeapon : CWeapon {
 	}
 	
 	// Update is called once per frame
-	protected override void Update () {
+	protected override void FixedUpdate () {
 
-        base.Update();
+        base.FixedUpdate();
 
-        if(Input.GetKey(KeyCode.Mouse0))
-        {
-            anim.SetTrigger("DoubleFireBall");
-        }
+       
 
         if(type != "Starting Weapon")
         {

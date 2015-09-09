@@ -22,20 +22,19 @@ public class CWeapon : MonoBehaviour
 
     //if you inherit from this class you must provide virtual functions then call the base from 
     //what you are inheriting from. otherwise it will just be hidden.
-    protected virtual void Update()
+    protected virtual void FixedUpdate()
     {
 
-        if (Input.GetKey(KeyCode.Mouse0) && timer < 0)
+		if(Input.GetKeyDown(KeyCode.Mouse0) && timer < 0)
         {
             GameObject instPrefab = Instantiate(projectile, GetComponent<Transform>().position, GetComponent<Transform>().rotation) as GameObject;
-           // instPrefab.transform.parent = GameObject.Find("Bucket").transform;
             instPrefab.transform.parent = GameObject.FindGameObjectWithTag("Bucket").transform;
             timer = rof;
         }
 
         timer -= Time.deltaTime;
-    }
 
+	}
     public void Randomize(float value)
     {
         rof = Random.Range(0.01f, value * 0.02f);

@@ -23,10 +23,10 @@ public class EnemyManager : MonoBehaviour {
 
 	void Spawn() 
     {
-        Color c = Color.white;
-        int randColor = Random.Range(0, 5);
-        switch (randColor)
-        {
+      //  Color c = Color.white;
+      //  int randColor = Random.Range(0, 5);
+      //  switch (randColor)
+       /* {
             case 0:
                 c = Color.blue;
                 break;
@@ -43,12 +43,12 @@ public class EnemyManager : MonoBehaviour {
                 c = Color.white;
                 break;
          
-        }
+        }*/
 		int prefab_num = Random.Range (0,_enemy.Count);
 		Vector3 newPosition = new Vector3(Random.insideUnitSphere.x * 50, transform.position.y, Random.insideUnitSphere.z * 50);
 		GameObject e =  Instantiate(_enemy[prefab_num], newPosition, transform.rotation) as GameObject;
         e.name = "Enemy[" + EnemySpawnCounter.ToString() +"]";
-        e.GetComponent<Renderer>().material.color = c;
+        //e.GetComponent<Renderer>().material.color = c;
 		++EnemySpawnCounter;
 		++ZombieCount.ZombieCounter;
 
